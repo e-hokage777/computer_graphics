@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/modes/OneDrive/Documents/CG/lighting/build/cmake_install.cmake",
+		"C:/Users/modes/OneDrive/Documents/CG/lighting/build/glfw/cmake_install.cmake",
+		"C:/Users/modes/OneDrive/Documents/CG/lighting/build/glfw/src/cmake_install.cmake",
+		"C:/Users/modes/OneDrive/Documents/CG/lighting/build/glfw/docs/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

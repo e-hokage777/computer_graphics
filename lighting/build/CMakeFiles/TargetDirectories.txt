@@ -1,0 +1,11 @@
+C:/Users/modes/OneDrive/Documents/CG/lighting/build/CMakeFiles/lighting.dir
+C:/Users/modes/OneDrive/Documents/CG/lighting/build/CMakeFiles/INSTALL.dir
+C:/Users/modes/OneDrive/Documents/CG/lighting/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/modes/OneDrive/Documents/CG/lighting/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/modes/OneDrive/Documents/CG/lighting/build/glfw/CMakeFiles/uninstall.dir
+C:/Users/modes/OneDrive/Documents/CG/lighting/build/glfw/CMakeFiles/INSTALL.dir
+C:/Users/modes/OneDrive/Documents/CG/lighting/build/glfw/CMakeFiles/ALL_BUILD.dir
+C:/Users/modes/OneDrive/Documents/CG/lighting/build/glfw/src/CMakeFiles/glfw.dir
+C:/Users/modes/OneDrive/Documents/CG/lighting/build/glfw/src/CMakeFiles/update_mappings.dir
+C:/Users/modes/OneDrive/Documents/CG/lighting/build/glfw/src/CMakeFiles/INSTALL.dir
+C:/Users/modes/OneDrive/Documents/CG/lighting/build/glfw/docs/CMakeFiles/INSTALL.dir

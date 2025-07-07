@@ -1,0 +1,10 @@
+^C:\USERS\MODES\ONEDRIVE\DOCUMENTS\CG\LIGHTING\BUILD\CMAKEFILES\2A937E1BD567D2DC62A3A1CA9BB86887\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/modes/OneDrive/Documents/CG/lighting -BC:/Users/modes/OneDrive/Documents/CG/lighting/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/modes/OneDrive/Documents/CG/lighting/build/lighting.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
