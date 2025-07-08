@@ -1,10 +1,10 @@
 {
 	"InstallScripts" : 
 	[
-		"C:/Users/modes/OneDrive/Documents/CG/lighting/out/build/lighting preset/cmake_install.cmake",
-		"C:/Users/modes/OneDrive/Documents/CG/lighting/out/build/lighting preset/glfw/cmake_install.cmake",
-		"C:/Users/modes/OneDrive/Documents/CG/lighting/out/build/lighting preset/glfw/src/cmake_install.cmake",
-		"C:/Users/modes/OneDrive/Documents/CG/lighting/out/build/lighting preset/glfw/docs/cmake_install.cmake"
+		"C:/Users/modes/OneDrive/Documents/CG/computer_graphics/lighting/out/build/lighting preset/cmake_install.cmake",
+		"C:/Users/modes/OneDrive/Documents/CG/computer_graphics/lighting/out/build/lighting preset/glfw/cmake_install.cmake",
+		"C:/Users/modes/OneDrive/Documents/CG/computer_graphics/lighting/out/build/lighting preset/glfw/src/cmake_install.cmake",
+		"C:/Users/modes/OneDrive/Documents/CG/computer_graphics/lighting/out/build/lighting preset/glfw/docs/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

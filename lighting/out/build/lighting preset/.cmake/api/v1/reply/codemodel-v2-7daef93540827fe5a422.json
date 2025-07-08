@@ -113,14 +113,14 @@
 				{
 					"directoryIndex" : 2,
 					"id" : "glfw::@12507ebf64a5258d241e",
-					"jsonFile" : "target-glfw-Debug-75bb596cf5c74137240e.json",
+					"jsonFile" : "target-glfw-Debug-97f8445270a35f09c91b.json",
 					"name" : "glfw",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "lighting::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-lighting-Debug-464ade808e544e703139.json",
+					"jsonFile" : "target-lighting-Debug-350a510a730370b46232.json",
 					"name" : "lighting",
 					"projectIndex" : 0
 				},
@@ -144,8 +144,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/modes/OneDrive/Documents/CG/lighting/out/build/lighting preset",
-		"source" : "C:/Users/modes/OneDrive/Documents/CG/lighting"
+		"build" : "C:/Users/modes/OneDrive/Documents/CG/computer_graphics/lighting/out/build/lighting preset",
+		"source" : "C:/Users/modes/OneDrive/Documents/CG/computer_graphics/lighting"
 	},
 	"version" : 
 	{

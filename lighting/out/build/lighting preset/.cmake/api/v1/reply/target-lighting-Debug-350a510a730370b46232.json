@@ -52,11 +52,11 @@
 			[
 				{
 					"backtrace" : 2,
-					"path" : "C:/Users/modes/OneDrive/Documents/CG/lighting/include"
+					"path" : "C:/Users/modes/OneDrive/Documents/CG/computer_graphics/lighting/include"
 				},
 				{
 					"backtrace" : 1,
-					"path" : "C:/Users/modes/OneDrive/Documents/CG/lighting/lib/glfw-3.4/glfw-3.4/include"
+					"path" : "C:/Users/modes/OneDrive/Documents/CG/computer_graphics/lighting/lib/glfw-3.4/glfw-3.4/include"
 				}
 			],
 			"language" : "CXX",
@@ -77,11 +77,11 @@
 			[
 				{
 					"backtrace" : 2,
-					"path" : "C:/Users/modes/OneDrive/Documents/CG/lighting/include"
+					"path" : "C:/Users/modes/OneDrive/Documents/CG/computer_graphics/lighting/include"
 				},
 				{
 					"backtrace" : 1,
-					"path" : "C:/Users/modes/OneDrive/Documents/CG/lighting/lib/glfw-3.4/glfw-3.4/include"
+					"path" : "C:/Users/modes/OneDrive/Documents/CG/computer_graphics/lighting/lib/glfw-3.4/glfw-3.4/include"
 				}
 			],
 			"language" : "C",

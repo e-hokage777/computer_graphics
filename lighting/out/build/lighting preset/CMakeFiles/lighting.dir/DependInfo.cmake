@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/modes/OneDrive/Documents/CG/lighting/src/gl.c" "CMakeFiles/lighting.dir/src/gl.c.obj" "gcc" "CMakeFiles/lighting.dir/src/gl.c.obj.d"
-  "C:/Users/modes/OneDrive/Documents/CG/lighting/src/main.cpp" "CMakeFiles/lighting.dir/src/main.cpp.obj" "gcc" "CMakeFiles/lighting.dir/src/main.cpp.obj.d"
-  "C:/Users/modes/OneDrive/Documents/CG/lighting/src/stb_image.cpp" "CMakeFiles/lighting.dir/src/stb_image.cpp.obj" "gcc" "CMakeFiles/lighting.dir/src/stb_image.cpp.obj.d"
+  "C:/Users/modes/OneDrive/Documents/CG/computer_graphics/lighting/src/gl.c" "CMakeFiles/lighting.dir/src/gl.c.obj" "gcc" "CMakeFiles/lighting.dir/src/gl.c.obj.d"
+  "C:/Users/modes/OneDrive/Documents/CG/computer_graphics/lighting/src/main.cpp" "CMakeFiles/lighting.dir/src/main.cpp.obj" "gcc" "CMakeFiles/lighting.dir/src/main.cpp.obj.d"
+  "C:/Users/modes/OneDrive/Documents/CG/computer_graphics/lighting/src/stb_image.cpp" "CMakeFiles/lighting.dir/src/stb_image.cpp.obj" "gcc" "CMakeFiles/lighting.dir/src/stb_image.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

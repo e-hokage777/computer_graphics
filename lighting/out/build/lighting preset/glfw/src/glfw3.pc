@@ -1,7 +1,7 @@
-prefix=C:/Users/modes/OneDrive/Documents/CG/lighting/out/install/lighting preset
+prefix=C:/Users/modes/OneDrive/Documents/CG/computer_graphics/lighting/out/install/lighting preset
 exec_prefix=${prefix}
-includedir=C:/Users/modes/OneDrive/Documents/CG/lighting/out/install/lighting preset/include
-libdir=C:/Users/modes/OneDrive/Documents/CG/lighting/out/install/lighting preset/lib
+includedir=C:/Users/modes/OneDrive/Documents/CG/computer_graphics/lighting/out/install/lighting preset/include
+libdir=C:/Users/modes/OneDrive/Documents/CG/computer_graphics/lighting/out/install/lighting preset/lib
 
 Name: GLFW
 Description: A multi-platform library for OpenGL, window and input

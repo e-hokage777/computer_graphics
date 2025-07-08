@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\modes\OneDrive\Documents\CG\lighting
+CMAKE_SOURCE_DIR = C:\Users\modes\OneDrive\Documents\CG\computer_graphics\lighting
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\modes\OneDrive\Documents\CG\lighting\out\build\lighting preset"
+CMAKE_BINARY_DIR = "C:\Users\modes\OneDrive\Documents\CG\computer_graphics\lighting\out\build\lighting preset"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -131,9 +131,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\modes\OneDrive\Documents\CG\lighting\out\build\lighting preset\CMakeFiles" "C:\Users\modes\OneDrive\Documents\CG\lighting\out\build\lighting preset\\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\modes\OneDrive\Documents\CG\computer_graphics\lighting\out\build\lighting preset\CMakeFiles" "C:\Users\modes\OneDrive\Documents\CG\computer_graphics\lighting\out\build\lighting preset\\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\modes\OneDrive\Documents\CG\lighting\out\build\lighting preset\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\modes\OneDrive\Documents\CG\computer_graphics\lighting\out\build\lighting preset\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target

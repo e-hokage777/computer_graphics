@@ -1,6 +1,6 @@
 CMakeFiles/lighting.dir/src/stb_image.cpp.obj: \
- C:\Users\modes\OneDrive\Documents\CG\lighting\src\stb_image.cpp \
- C:/Users/modes/OneDrive/Documents/CG/lighting/include/stb_image.h \
+ C:\Users\modes\OneDrive\Documents\CG\computer_graphics\lighting\src\stb_image.cpp \
+ C:/Users/modes/OneDrive/Documents/CG/computer_graphics/lighting/include/stb_image.h \
  C:/msys64/ucrt64/include/stdio.h \
  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
  C:/msys64/ucrt64/include/corecrt.h C:/msys64/ucrt64/include/_mingw.h \

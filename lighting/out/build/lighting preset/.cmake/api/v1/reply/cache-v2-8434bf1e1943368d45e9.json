@@ -67,7 +67,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/modes/OneDrive/Documents/CG/lighting/out/build/lighting preset"
+			"value" : "c:/Users/modes/OneDrive/Documents/CG/computer_graphics/lighting/out/build/lighting preset"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -167,10 +167,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "CXX compiler"
 				}
 			],
-			"type" : "UNINITIALIZED",
+			"type" : "STRING",
 			"value" : "C:/msys64/ucrt64/bin/g++.exe"
 		},
 		{
@@ -311,10 +311,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "C compiler"
 				}
 			],
-			"type" : "UNINITIALIZED",
+			"type" : "STRING",
 			"value" : "C:/msys64/ucrt64/bin/gcc.exe"
 		},
 		{
@@ -587,7 +587,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/modes/OneDrive/Documents/CG/lighting/out/build/lighting preset/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/modes/OneDrive/Documents/CG/computer_graphics/lighting/out/build/lighting preset/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -671,7 +671,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/modes/OneDrive/Documents/CG/lighting"
+			"value" : "C:/Users/modes/OneDrive/Documents/CG/computer_graphics/lighting"
 		},
 		{
 			"name" : "CMAKE_INSTALL_BINDIR",
@@ -875,7 +875,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Users/modes/OneDrive/Documents/CG/lighting/out/install/lighting preset"
+			"value" : "C:/Users/modes/OneDrive/Documents/CG/computer_graphics/lighting/out/install/lighting preset"
 		},
 		{
 			"name" : "CMAKE_INSTALL_RUNSTATEDIR",
@@ -1687,7 +1687,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/modes/OneDrive/Documents/CG/lighting/out/build/lighting preset/glfw"
+			"value" : "C:/Users/modes/OneDrive/Documents/CG/computer_graphics/lighting/out/build/lighting preset/glfw"
 		},
 		{
 			"name" : "GLFW_BUILD_DOCS",
@@ -1807,7 +1807,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/modes/OneDrive/Documents/CG/lighting/lib/glfw-3.4/glfw-3.4"
+			"value" : "C:/Users/modes/OneDrive/Documents/CG/computer_graphics/lighting/lib/glfw-3.4/glfw-3.4"
 		},
 		{
 			"name" : "GLFW_USE_HYBRID_HPG",
@@ -1911,7 +1911,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/modes/OneDrive/Documents/CG/lighting/out/install/lighting preset"
+			"value" : "C:/Users/modes/OneDrive/Documents/CG/computer_graphics/lighting/out/install/lighting preset"
 		},
 		{
 			"name" : "lighting_BINARY_DIR",
@@ -1923,7 +1923,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/modes/OneDrive/Documents/CG/lighting/out/build/lighting preset"
+			"value" : "C:/Users/modes/OneDrive/Documents/CG/computer_graphics/lighting/out/build/lighting preset"
 		},
 		{
 			"name" : "lighting_IS_TOP_LEVEL",
@@ -1947,7 +1947,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/modes/OneDrive/Documents/CG/lighting"
+			"value" : "C:/Users/modes/OneDrive/Documents/CG/computer_graphics/lighting"
 		}
 	],
 	"kind" : "cache",

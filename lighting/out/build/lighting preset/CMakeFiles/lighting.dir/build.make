@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\modes\OneDrive\Documents\CG\lighting
+CMAKE_SOURCE_DIR = C:\Users\modes\OneDrive\Documents\CG\computer_graphics\lighting
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\modes\OneDrive\Documents\CG\lighting\out\build\lighting preset"
+CMAKE_BINARY_DIR = "C:\Users\modes\OneDrive\Documents\CG\computer_graphics\lighting\out\build\lighting preset"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/lighting.dir/depend.make
@@ -73,48 +73,48 @@ CMakeFiles/lighting.dir/codegen:
 
 CMakeFiles/lighting.dir/src/main.cpp.obj: CMakeFiles/lighting.dir/flags.make
 CMakeFiles/lighting.dir/src/main.cpp.obj: CMakeFiles/lighting.dir/includes_CXX.rsp
-CMakeFiles/lighting.dir/src/main.cpp.obj: C:/Users/modes/OneDrive/Documents/CG/lighting/src/main.cpp
+CMakeFiles/lighting.dir/src/main.cpp.obj: C:/Users/modes/OneDrive/Documents/CG/computer_graphics/lighting/src/main.cpp
 CMakeFiles/lighting.dir/src/main.cpp.obj: CMakeFiles/lighting.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\modes\OneDrive\Documents\CG\lighting\out\build\lighting preset\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lighting.dir/src/main.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lighting.dir/src/main.cpp.obj -MF CMakeFiles\lighting.dir\src\main.cpp.obj.d -o CMakeFiles\lighting.dir\src\main.cpp.obj -c C:\Users\modes\OneDrive\Documents\CG\lighting\src\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\modes\OneDrive\Documents\CG\computer_graphics\lighting\out\build\lighting preset\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lighting.dir/src/main.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lighting.dir/src/main.cpp.obj -MF CMakeFiles\lighting.dir\src\main.cpp.obj.d -o CMakeFiles\lighting.dir\src\main.cpp.obj -c C:\Users\modes\OneDrive\Documents\CG\computer_graphics\lighting\src\main.cpp
 
 CMakeFiles/lighting.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lighting.dir/src/main.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\modes\OneDrive\Documents\CG\lighting\src\main.cpp > CMakeFiles\lighting.dir\src\main.cpp.i
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\modes\OneDrive\Documents\CG\computer_graphics\lighting\src\main.cpp > CMakeFiles\lighting.dir\src\main.cpp.i
 
 CMakeFiles/lighting.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lighting.dir/src/main.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\modes\OneDrive\Documents\CG\lighting\src\main.cpp -o CMakeFiles\lighting.dir\src\main.cpp.s
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\modes\OneDrive\Documents\CG\computer_graphics\lighting\src\main.cpp -o CMakeFiles\lighting.dir\src\main.cpp.s
 
 CMakeFiles/lighting.dir/src/gl.c.obj: CMakeFiles/lighting.dir/flags.make
 CMakeFiles/lighting.dir/src/gl.c.obj: CMakeFiles/lighting.dir/includes_C.rsp
-CMakeFiles/lighting.dir/src/gl.c.obj: C:/Users/modes/OneDrive/Documents/CG/lighting/src/gl.c
+CMakeFiles/lighting.dir/src/gl.c.obj: C:/Users/modes/OneDrive/Documents/CG/computer_graphics/lighting/src/gl.c
 CMakeFiles/lighting.dir/src/gl.c.obj: CMakeFiles/lighting.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\modes\OneDrive\Documents\CG\lighting\out\build\lighting preset\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/lighting.dir/src/gl.c.obj"
-	C:\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lighting.dir/src/gl.c.obj -MF CMakeFiles\lighting.dir\src\gl.c.obj.d -o CMakeFiles\lighting.dir\src\gl.c.obj -c C:\Users\modes\OneDrive\Documents\CG\lighting\src\gl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\modes\OneDrive\Documents\CG\computer_graphics\lighting\out\build\lighting preset\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/lighting.dir/src/gl.c.obj"
+	C:\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lighting.dir/src/gl.c.obj -MF CMakeFiles\lighting.dir\src\gl.c.obj.d -o CMakeFiles\lighting.dir\src\gl.c.obj -c C:\Users\modes\OneDrive\Documents\CG\computer_graphics\lighting\src\gl.c
 
 CMakeFiles/lighting.dir/src/gl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/lighting.dir/src/gl.c.i"
-	C:\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\modes\OneDrive\Documents\CG\lighting\src\gl.c > CMakeFiles\lighting.dir\src\gl.c.i
+	C:\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\modes\OneDrive\Documents\CG\computer_graphics\lighting\src\gl.c > CMakeFiles\lighting.dir\src\gl.c.i
 
 CMakeFiles/lighting.dir/src/gl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/lighting.dir/src/gl.c.s"
-	C:\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\modes\OneDrive\Documents\CG\lighting\src\gl.c -o CMakeFiles\lighting.dir\src\gl.c.s
+	C:\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\modes\OneDrive\Documents\CG\computer_graphics\lighting\src\gl.c -o CMakeFiles\lighting.dir\src\gl.c.s
 
 CMakeFiles/lighting.dir/src/stb_image.cpp.obj: CMakeFiles/lighting.dir/flags.make
 CMakeFiles/lighting.dir/src/stb_image.cpp.obj: CMakeFiles/lighting.dir/includes_CXX.rsp
-CMakeFiles/lighting.dir/src/stb_image.cpp.obj: C:/Users/modes/OneDrive/Documents/CG/lighting/src/stb_image.cpp
+CMakeFiles/lighting.dir/src/stb_image.cpp.obj: C:/Users/modes/OneDrive/Documents/CG/computer_graphics/lighting/src/stb_image.cpp
 CMakeFiles/lighting.dir/src/stb_image.cpp.obj: CMakeFiles/lighting.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\modes\OneDrive\Documents\CG\lighting\out\build\lighting preset\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lighting.dir/src/stb_image.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lighting.dir/src/stb_image.cpp.obj -MF CMakeFiles\lighting.dir\src\stb_image.cpp.obj.d -o CMakeFiles\lighting.dir\src\stb_image.cpp.obj -c C:\Users\modes\OneDrive\Documents\CG\lighting\src\stb_image.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\modes\OneDrive\Documents\CG\computer_graphics\lighting\out\build\lighting preset\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lighting.dir/src/stb_image.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lighting.dir/src/stb_image.cpp.obj -MF CMakeFiles\lighting.dir\src\stb_image.cpp.obj.d -o CMakeFiles\lighting.dir\src\stb_image.cpp.obj -c C:\Users\modes\OneDrive\Documents\CG\computer_graphics\lighting\src\stb_image.cpp
 
 CMakeFiles/lighting.dir/src/stb_image.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lighting.dir/src/stb_image.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\modes\OneDrive\Documents\CG\lighting\src\stb_image.cpp > CMakeFiles\lighting.dir\src\stb_image.cpp.i
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\modes\OneDrive\Documents\CG\computer_graphics\lighting\src\stb_image.cpp > CMakeFiles\lighting.dir\src\stb_image.cpp.i
 
 CMakeFiles/lighting.dir/src/stb_image.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lighting.dir/src/stb_image.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\modes\OneDrive\Documents\CG\lighting\src\stb_image.cpp -o CMakeFiles\lighting.dir\src\stb_image.cpp.s
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\modes\OneDrive\Documents\CG\computer_graphics\lighting\src\stb_image.cpp -o CMakeFiles\lighting.dir\src\stb_image.cpp.s
 
 # Object files for target lighting
 lighting_OBJECTS = \
@@ -133,7 +133,7 @@ lighting.exe: glfw/src/libglfw3.a
 lighting.exe: CMakeFiles/lighting.dir/linkLibs.rsp
 lighting.exe: CMakeFiles/lighting.dir/objects1.rsp
 lighting.exe: CMakeFiles/lighting.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\modes\OneDrive\Documents\CG\lighting\out\build\lighting preset\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable lighting.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\modes\OneDrive\Documents\CG\computer_graphics\lighting\out\build\lighting preset\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable lighting.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\lighting.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -145,6 +145,6 @@ CMakeFiles/lighting.dir/clean:
 .PHONY : CMakeFiles/lighting.dir/clean
 
 CMakeFiles/lighting.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\modes\OneDrive\Documents\CG\lighting C:\Users\modes\OneDrive\Documents\CG\lighting "C:\Users\modes\OneDrive\Documents\CG\lighting\out\build\lighting preset" "C:\Users\modes\OneDrive\Documents\CG\lighting\out\build\lighting preset" "C:\Users\modes\OneDrive\Documents\CG\lighting\out\build\lighting preset\CMakeFiles\lighting.dir\DependInfo.cmake" "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\modes\OneDrive\Documents\CG\computer_graphics\lighting C:\Users\modes\OneDrive\Documents\CG\computer_graphics\lighting "C:\Users\modes\OneDrive\Documents\CG\computer_graphics\lighting\out\build\lighting preset" "C:\Users\modes\OneDrive\Documents\CG\computer_graphics\lighting\out\build\lighting preset" "C:\Users\modes\OneDrive\Documents\CG\computer_graphics\lighting\out\build\lighting preset\CMakeFiles\lighting.dir\DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/lighting.dir/depend
 

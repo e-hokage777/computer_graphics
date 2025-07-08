@@ -1,7 +1,7 @@
 glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj: \
- C:\Users\modes\OneDrive\Documents\CG\lighting\lib\glfw-3.4\glfw-3.4\src\osmesa_context.c \
- C:\Users\modes\OneDrive\Documents\CG\lighting\lib\glfw-3.4\glfw-3.4\src\internal.h \
- C:/Users/modes/OneDrive/Documents/CG/lighting/lib/glfw-3.4/glfw-3.4/include/GLFW/glfw3.h \
+ C:\Users\modes\OneDrive\Documents\CG\computer_graphics\lighting\lib\glfw-3.4\glfw-3.4\src\osmesa_context.c \
+ C:\Users\modes\OneDrive\Documents\CG\computer_graphics\lighting\lib\glfw-3.4\glfw-3.4\src\internal.h \
+ C:/Users/modes/OneDrive/Documents/CG/computer_graphics/lighting/lib/glfw-3.4/glfw-3.4/include/GLFW/glfw3.h \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stddef.h \
  C:/msys64/ucrt64/include/stddef.h C:/msys64/ucrt64/include/crtdefs.h \
  C:/msys64/ucrt64/include/corecrt.h C:/msys64/ucrt64/include/_mingw.h \
@@ -11,9 +11,9 @@ glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj: \
  C:/msys64/ucrt64/include/sdks/_mingw_ddk.h \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdint.h \
  C:/msys64/ucrt64/include/stdint.h \
- C:\Users\modes\OneDrive\Documents\CG\lighting\lib\glfw-3.4\glfw-3.4\src\platform.h \
- C:\Users\modes\OneDrive\Documents\CG\lighting\lib\glfw-3.4\glfw-3.4\src\null_platform.h \
- C:\Users\modes\OneDrive\Documents\CG\lighting\lib\glfw-3.4\glfw-3.4\src\win32_platform.h \
+ C:\Users\modes\OneDrive\Documents\CG\computer_graphics\lighting\lib\glfw-3.4\glfw-3.4\src\platform.h \
+ C:\Users\modes\OneDrive\Documents\CG\computer_graphics\lighting\lib\glfw-3.4\glfw-3.4\src\null_platform.h \
+ C:\Users\modes\OneDrive\Documents\CG\computer_graphics\lighting\lib\glfw-3.4\glfw-3.4\src\win32_platform.h \
  C:/msys64/ucrt64/include/wctype.h C:/msys64/ucrt64/include/windows.h \
  C:/msys64/ucrt64/include/sdkddkver.h C:/msys64/ucrt64/include/excpt.h \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdarg.h \
@@ -208,9 +208,9 @@ glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj: \
  C:/msys64/ucrt64/include/propidl.h \
  C:/msys64/ucrt64/include/_mingw_dxhelper.h \
  C:/msys64/ucrt64/include/xinput.h C:/msys64/ucrt64/include/dbt.h \
- C:\Users\modes\OneDrive\Documents\CG\lighting\lib\glfw-3.4\glfw-3.4\src\null_joystick.h \
- C:\Users\modes\OneDrive\Documents\CG\lighting\lib\glfw-3.4\glfw-3.4\src\win32_joystick.h \
- C:\Users\modes\OneDrive\Documents\CG\lighting\lib\glfw-3.4\glfw-3.4\src\win32_thread.h \
- C:\Users\modes\OneDrive\Documents\CG\lighting\lib\glfw-3.4\glfw-3.4\src\win32_time.h \
- C:/Users/modes/OneDrive/Documents/CG/lighting/lib/glfw-3.4/glfw-3.4/include/GLFW/glfw3native.h \
+ C:\Users\modes\OneDrive\Documents\CG\computer_graphics\lighting\lib\glfw-3.4\glfw-3.4\src\null_joystick.h \
+ C:\Users\modes\OneDrive\Documents\CG\computer_graphics\lighting\lib\glfw-3.4\glfw-3.4\src\win32_joystick.h \
+ C:\Users\modes\OneDrive\Documents\CG\computer_graphics\lighting\lib\glfw-3.4\glfw-3.4\src\win32_thread.h \
+ C:\Users\modes\OneDrive\Documents\CG\computer_graphics\lighting\lib\glfw-3.4\glfw-3.4\src\win32_time.h \
+ C:/Users/modes/OneDrive/Documents/CG/computer_graphics/lighting/lib/glfw-3.4/glfw-3.4/include/GLFW/glfw3native.h \
  C:/msys64/ucrt64/include/assert.h

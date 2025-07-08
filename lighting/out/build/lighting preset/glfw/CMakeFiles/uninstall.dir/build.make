@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\modes\OneDrive\Documents\CG\lighting
+CMAKE_SOURCE_DIR = C:\Users\modes\OneDrive\Documents\CG\computer_graphics\lighting
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\modes\OneDrive\Documents\CG\lighting\out\build\lighting preset"
+CMAKE_BINARY_DIR = "C:\Users\modes\OneDrive\Documents\CG\computer_graphics\lighting\out\build\lighting preset"
 
 # Utility rule file for uninstall.
 
@@ -66,7 +66,7 @@ include glfw/CMakeFiles/uninstall.dir/compiler_depend.make
 include glfw/CMakeFiles/uninstall.dir/progress.make
 
 glfw/CMakeFiles/uninstall:
-	cd /d C:\Users\modes\OneDrive\DOCUME~1\CG\lighting\out\build\LIGHTI~1\glfw && "C:\Program Files\CMake\bin\cmake.exe" -P "C:/Users/modes/OneDrive/Documents/CG/lighting/out/build/lighting preset/glfw/cmake_uninstall.cmake"
+	cd /d C:\Users\modes\OneDrive\DOCUME~1\CG\COMPUT~1\lighting\out\build\LIGHTI~1\glfw && "C:\Program Files\CMake\bin\cmake.exe" -P "C:/Users/modes/OneDrive/Documents/CG/computer_graphics/lighting/out/build/lighting preset/glfw/cmake_uninstall.cmake"
 
 glfw/CMakeFiles/uninstall.dir/codegen:
 .PHONY : glfw/CMakeFiles/uninstall.dir/codegen
@@ -80,10 +80,10 @@ glfw/CMakeFiles/uninstall.dir/build: uninstall
 .PHONY : glfw/CMakeFiles/uninstall.dir/build
 
 glfw/CMakeFiles/uninstall.dir/clean:
-	cd /d C:\Users\modes\OneDrive\DOCUME~1\CG\lighting\out\build\LIGHTI~1\glfw && $(CMAKE_COMMAND) -P CMakeFiles\uninstall.dir\cmake_clean.cmake
+	cd /d C:\Users\modes\OneDrive\DOCUME~1\CG\COMPUT~1\lighting\out\build\LIGHTI~1\glfw && $(CMAKE_COMMAND) -P CMakeFiles\uninstall.dir\cmake_clean.cmake
 .PHONY : glfw/CMakeFiles/uninstall.dir/clean
 
 glfw/CMakeFiles/uninstall.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\modes\OneDrive\Documents\CG\lighting C:\Users\modes\OneDrive\Documents\CG\lighting\lib\glfw-3.4\glfw-3.4 "C:\Users\modes\OneDrive\Documents\CG\lighting\out\build\lighting preset" "C:\Users\modes\OneDrive\Documents\CG\lighting\out\build\lighting preset\glfw" "C:\Users\modes\OneDrive\Documents\CG\lighting\out\build\lighting preset\glfw\CMakeFiles\uninstall.dir\DependInfo.cmake" "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\modes\OneDrive\Documents\CG\computer_graphics\lighting C:\Users\modes\OneDrive\Documents\CG\computer_graphics\lighting\lib\glfw-3.4\glfw-3.4 "C:\Users\modes\OneDrive\Documents\CG\computer_graphics\lighting\out\build\lighting preset" "C:\Users\modes\OneDrive\Documents\CG\computer_graphics\lighting\out\build\lighting preset\glfw" "C:\Users\modes\OneDrive\Documents\CG\computer_graphics\lighting\out\build\lighting preset\glfw\CMakeFiles\uninstall.dir\DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : glfw/CMakeFiles/uninstall.dir/depend
 

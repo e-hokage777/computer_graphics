@@ -132,15 +132,15 @@
 			[
 				{
 					"backtrace" : 7,
-					"path" : "C:/Users/modes/OneDrive/Documents/CG/lighting/lib/glfw-3.4/glfw-3.4/include"
+					"path" : "C:/Users/modes/OneDrive/Documents/CG/computer_graphics/lighting/lib/glfw-3.4/glfw-3.4/include"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "C:/Users/modes/OneDrive/Documents/CG/lighting/lib/glfw-3.4/glfw-3.4/src"
+					"path" : "C:/Users/modes/OneDrive/Documents/CG/computer_graphics/lighting/lib/glfw-3.4/glfw-3.4/src"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "C:/Users/modes/OneDrive/Documents/CG/lighting/out/build/lighting preset/glfw/src"
+					"path" : "C:/Users/modes/OneDrive/Documents/CG/computer_graphics/lighting/out/build/lighting preset/glfw/src"
 				}
 			],
 			"language" : "C",
@@ -194,7 +194,7 @@
 		],
 		"prefix" : 
 		{
-			"path" : "C:/Users/modes/OneDrive/Documents/CG/lighting/out/install/lighting preset"
+			"path" : "C:/Users/modes/OneDrive/Documents/CG/computer_graphics/lighting/out/install/lighting preset"
 		}
 	},
 	"name" : "glfw",
