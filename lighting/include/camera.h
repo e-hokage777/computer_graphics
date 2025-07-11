@@ -28,6 +28,7 @@ public:
     float sensitivity;
     float speed;
     float yaw = 90.0f;
+    float pitch = 0.0f;
     Camera(glm::vec3 position = CAMERA_POSITION,
            glm::vec3 target = CAMERA_FRONT,
            float sensitivity = SENSITIVITY,
@@ -38,9 +39,9 @@ public:
     glm::mat4 getMatrix()
     {
         // computing front
-        front.x = glm::cos(glm::radians(yaw));
-        front.z = glm::sin(glm::radians(yaw));
-
+        front.x = glm::cos(glm::radians(yaw)) * glm::cos(glm::radians(pitch));
+        front.y = glm::sin(glm::radians(pitch));
+        front.z = glm::sin(glm::radians(yaw)) * glm::cos(glm::radians(pitch));
 
         front = glm::normalize(front);
 
@@ -71,11 +72,20 @@ public:
         }
     }
 
-    void computeDirection(float dx, float dy){
+    void computeDirection(float dx, float dy)
+    {
         yaw += dx * deltaTime * sensitivity;
+
+        pitch += dy * deltaTime * sensitivity;
+
+        if (pitch >= 89.0f)
+            pitch = 89.0f;
+        if (pitch <= -89.0f)
+            pitch = -89.0f;
     }
 
-    void update(float deltaTime){
+    void update(float deltaTime)
+    {
         this->deltaTime = deltaTime;
     }
 
