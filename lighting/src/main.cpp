@@ -83,6 +83,17 @@ void processInput(GLFWwindow *window)
         camera.move(CameraDirection::Right);
     }
 }
+double lastCursorX = 0;
+double lastCursorY = 0;
+void cursorPosCallback(GLFWwindow *window, double xpos, double ypos){
+    float dx = (float)(lastCursorX - xpos);
+    float dy = (float)(ypos - lastCursorY);
+
+    lastCursorX = xpos;
+    lastCursorY = ypos;
+
+    camera.computeDirection(dx, dy);
+}
 
 int main()
 {
@@ -104,6 +115,12 @@ int main()
     glfwSwapInterval(1);
     glfwSetFramebufferSizeCallback(window, frameBufferSizeCallback);
     glfwMakeContextCurrent(window);
+
+    // setting callbacks
+    glfwSetCursorPosCallback(window, cursorPosCallback);
+
+    // capturing cursor
+    glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
 
     if (gladLoadGL(glfwGetProcAddress) == 0)
     {
@@ -144,8 +161,17 @@ int main()
 
     camera = Camera(glm::vec3(0.0f, 0.0f, -3.0f), objectPosition);
 
+    float lastTime = 0;
     while (!glfwWindowShouldClose(window))
     {
+        // calculating deltatime
+        float currentTime = (float)glfwGetTime();
+        float deltaTime = currentTime - lastTime;
+        lastTime = currentTime;
+
+        // updating camera
+        camera.update(deltaTime);
+
         glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
