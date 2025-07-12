@@ -79,6 +79,10 @@ public:
         glUniformMatrix4fv(glGetUniformLocation(this->ID, name), 1, GL_FALSE, value);
     }
 
+    void setVec3(const char *name, float * value){
+        glUniform3fv(glGetUniformLocation(this->ID, name), 1, value);
+    }
+
 private:
     unsigned int createShader(const char *source, GLenum type)
     {

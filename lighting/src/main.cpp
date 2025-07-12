@@ -85,7 +85,8 @@ void processInput(GLFWwindow *window)
 }
 double lastCursorX = 0;
 double lastCursorY = 0;
-void cursorPosCallback(GLFWwindow *window, double xpos, double ypos){
+void cursorPosCallback(GLFWwindow *window, double xpos, double ypos)
+{
     float dx = (float)(lastCursorX - xpos);
     float dy = (float)(ypos - lastCursorY);
 
@@ -137,6 +138,10 @@ int main()
     glBindBuffer(GL_ARRAY_BUFFER, vbo);
     glBufferData(GL_ARRAY_BUFFER, sizeof(CUBE_VERTICES), CUBE_VERTICES, GL_STATIC_DRAW);
 
+    //// setting up for object
+    // object shader
+    Shader objectShader = Shader("shaders/vertex_shader.vs", "shaders/fragment_shader.fs");
+
     // creating vertex array
     unsigned int vao;
     glGenVertexArrays(1, &vao);
@@ -151,10 +156,23 @@ int main()
     glBindBuffer(GL_ARRAY_BUFFER, 0);
     glDisableVertexAttribArray(0);
 
-    // creating shader
-    Shader objectShader = Shader("shaders/vertex_shader.vs", "shaders/fragment_shader.fs");
+    //// setting up light
+    // light shader
+    Shader lightShader = Shader("shaders/light_vertex_shader.vs", "shaders/light_fragment_shader.fs");
+    unsigned int lightVao;
+    glGenVertexArrays(1, &lightVao);
+    glBindVertexArray(lightVao);
+    glBindBuffer(GL_ARRAY_BUFFER, vbo);
+    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 5 * sizeof(float), (void *)0);
+    glEnableVertexAttribArray(0);
+    glBindVertexArray(0);
+    glBindBuffer(GL_ARRAY_BUFFER, 0);
+    glDisableVertexAttribArray(0);
 
-    // creating camera
+    // light position
+    glm::vec3 lightPosition = glm::vec3(0.0f, 0.0f, -2.0f);
+    lightShader.use();
+    // lightShader.setVec3("p")
 
     // defining object parameters
     glm::vec3 objectPosition = glm::vec3(0.0f);
@@ -187,6 +205,7 @@ int main()
         model = glm::rotate(model, glm::radians(45.0f), glm::vec3(1.0f, 0.0f, 0.0f));
         model = glm::scale(model, glm::vec3(0.8));
 
+        //
         objectShader.setMat4("model", glm::value_ptr(model));
         objectShader.setMat4("projection", glm::value_ptr(projection));
         objectShader.setMat4("view", glm::value_ptr(view));
