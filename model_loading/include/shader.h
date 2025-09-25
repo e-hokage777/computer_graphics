@@ -51,9 +51,28 @@ public:
         unsigned int vertexShader, fragmentShader;
 
         vertexShader = createShader(vertexCode, GL_VERTEX_SHADER);
-        vertexShader = createShader(vertexCode, GL_FRAGMENT_SHADER);
+        fragmentShader = createShader(fragmentCode, GL_FRAGMENT_SHADER);
 
         // linking shaders to program
+        glAttachShader(this->ID, vertexShader);
+        glAttachShader(this->ID, fragmentShader);
+
+        glLinkProgram(this->ID);
+
+        int success;
+        glGetProgramiv(this->ID, GL_LINK_STATUS, &success);
+
+        if (!success)
+        {
+            char infoLog[512];
+            glGetProgramInfoLog(this->ID, 512, NULL, infoLog);
+            std::cout << "Failed to link shaders to program: " << infoLog << std::endl;
+        }
+    }
+
+    void use()
+    {
+        glUseProgram(this->ID);
     }
 
 private:

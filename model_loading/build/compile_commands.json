@@ -1,14 +1,14 @@
 [
 {
-  "directory": "D:/Documents/Computer_Graphics/code/model_loading/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/model_loading.dir/includes_CXX.rsp -g -o CMakeFiles\\model_loading.dir\\src\\main.cpp.obj -c D:\\Documents\\Computer_Graphics\\code\\model_loading\\src\\main.cpp",
-  "file": "D:/Documents/Computer_Graphics/code/model_loading/src/main.cpp",
+  "directory": "D:/Documents/Computer_Graphics/code/computer_graphics/model_loading/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/model_loading.dir/includes_CXX.rsp -g -o CMakeFiles\\model_loading.dir\\src\\main.cpp.obj -c D:\\Documents\\Computer_Graphics\\code\\computer_graphics\\model_loading\\src\\main.cpp",
+  "file": "D:/Documents/Computer_Graphics/code/computer_graphics/model_loading/src/main.cpp",
   "output": "CMakeFiles/model_loading.dir/src/main.cpp.obj"
 },
 {
-  "directory": "D:/Documents/Computer_Graphics/code/model_loading/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles/model_loading.dir/includes_C.rsp -g -o CMakeFiles\\model_loading.dir\\src\\glad.c.obj -c D:\\Documents\\Computer_Graphics\\code\\model_loading\\src\\glad.c",
-  "file": "D:/Documents/Computer_Graphics/code/model_loading/src/glad.c",
+  "directory": "D:/Documents/Computer_Graphics/code/computer_graphics/model_loading/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles/model_loading.dir/includes_C.rsp -g -o CMakeFiles\\model_loading.dir\\src\\glad.c.obj -c D:\\Documents\\Computer_Graphics\\code\\computer_graphics\\model_loading\\src\\glad.c",
+  "file": "D:/Documents/Computer_Graphics/code/computer_graphics/model_loading/src/glad.c",
   "output": "CMakeFiles/model_loading.dir/src/glad.c.obj"
 }
 ]

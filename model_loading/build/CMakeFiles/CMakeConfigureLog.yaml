@@ -41,6 +41,10 @@ events:
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/nodejs/"
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/flutter/flutter/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Users/Eli/scoop/shims/"
       - "C:/Users/Eli/.pyenv/pyenv-win/bin/"
       - "C:/Users/Eli/.pyenv/pyenv-win/shims/"
@@ -74,15 +78,20 @@ events:
         - "C:\\Program Files\\Git\\cmd"
         - "C:/Program Files/nodejs/"
         - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
-        - "C:/Users/Eli/scoop/shims"
-        - "C:\\Users\\Eli\\.pyenv\\pyenv-win\\bin"
-        - "C:/Users/Eli/.pyenv/pyenv-win/shims"
-        - "C:\\Users\\Eli\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/Eli/AppData/Local/Programs/Microsoft VS Code/bin"
-        - "C:\\Users\\Eli\\AppData\\Local\\Programs\\Senpwai"
-        - "C:/Users/Eli/AppData/Roaming/npm"
-        - "C:\\Users\\Eli\\AppData\\Local\\Programs\\Senpwai"
-        - "c:/users/eli/.local/bin"
+        - "C:/Program Files/CMake/bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools"
+        - "C:\\flutter\\flutter\\bin"
+        - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+        - "C:\\Users\\Eli\\scoop\\shims"
+        - "C:/Users/Eli/.pyenv/pyenv-win/bin"
+        - "C:\\Users\\Eli\\.pyenv\\pyenv-win\\shims"
+        - "C:/Users/Eli/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\Eli\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:/Users/Eli/AppData/Local/Programs/Senpwai"
+        - "C:\\Users\\Eli\\AppData\\Roaming\\npm"
+        - "C:/Users/Eli/AppData/Local/Programs/Senpwai"
+        - "c:\\users\\eli\\.local\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -126,15 +135,20 @@ events:
         - "C:\\Program Files\\Git\\cmd"
         - "C:/Program Files/nodejs/"
         - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
-        - "C:/Users/Eli/scoop/shims"
-        - "C:\\Users\\Eli\\.pyenv\\pyenv-win\\bin"
-        - "C:/Users/Eli/.pyenv/pyenv-win/shims"
-        - "C:\\Users\\Eli\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/Eli/AppData/Local/Programs/Microsoft VS Code/bin"
-        - "C:\\Users\\Eli\\AppData\\Local\\Programs\\Senpwai"
-        - "C:/Users/Eli/AppData/Roaming/npm"
-        - "C:\\Users\\Eli\\AppData\\Local\\Programs\\Senpwai"
-        - "c:/users/eli/.local/bin"
+        - "C:/Program Files/CMake/bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools"
+        - "C:\\flutter\\flutter\\bin"
+        - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+        - "C:\\Users\\Eli\\scoop\\shims"
+        - "C:/Users/Eli/.pyenv/pyenv-win/bin"
+        - "C:\\Users\\Eli\\.pyenv\\pyenv-win\\shims"
+        - "C:/Users/Eli/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\Eli\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:/Users/Eli/AppData/Local/Programs/Senpwai"
+        - "C:\\Users\\Eli\\AppData\\Roaming\\npm"
+        - "C:/Users/Eli/AppData/Local/Programs/Senpwai"
+        - "c:\\users\\eli\\.local\\bin"
   -
     kind: "message-v1"
     backtrace:
@@ -155,7 +169,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
       
       The CXX compiler identification is GNU, found in:
-        D:/Documents/Computer_Graphics/code/model_loading/build/CMakeFiles/4.1.1/CompilerIdCXX/a.exe
+        D:/Documents/Computer_Graphics/code/computer_graphics/model_loading/build/CMakeFiles/4.1.1/CompilerIdCXX/a.exe
       
   -
     kind: "find-v1"
@@ -191,6 +205,10 @@ events:
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/nodejs/"
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/flutter/flutter/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Users/Eli/scoop/shims/"
       - "C:/Users/Eli/.pyenv/pyenv-win/bin/"
       - "C:/Users/Eli/.pyenv/pyenv-win/shims/"
@@ -220,15 +238,20 @@ events:
         - "C:\\Program Files\\Git\\cmd"
         - "C:/Program Files/nodejs/"
         - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
-        - "C:/Users/Eli/scoop/shims"
-        - "C:\\Users\\Eli\\.pyenv\\pyenv-win\\bin"
-        - "C:/Users/Eli/.pyenv/pyenv-win/shims"
-        - "C:\\Users\\Eli\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/Eli/AppData/Local/Programs/Microsoft VS Code/bin"
-        - "C:\\Users\\Eli\\AppData\\Local\\Programs\\Senpwai"
-        - "C:/Users/Eli/AppData/Roaming/npm"
-        - "C:\\Users\\Eli\\AppData\\Local\\Programs\\Senpwai"
-        - "c:/users/eli/.local/bin"
+        - "C:/Program Files/CMake/bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools"
+        - "C:\\flutter\\flutter\\bin"
+        - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+        - "C:\\Users\\Eli\\scoop\\shims"
+        - "C:/Users/Eli/.pyenv/pyenv-win/bin"
+        - "C:\\Users\\Eli\\.pyenv\\pyenv-win\\shims"
+        - "C:/Users/Eli/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\Eli\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:/Users/Eli/AppData/Local/Programs/Senpwai"
+        - "C:\\Users\\Eli\\AppData\\Roaming\\npm"
+        - "C:/Users/Eli/AppData/Local/Programs/Senpwai"
+        - "c:\\users\\eli\\.local\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -263,6 +286,10 @@ events:
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/nodejs/"
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/flutter/flutter/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Users/Eli/scoop/shims/"
       - "C:/Users/Eli/.pyenv/pyenv-win/bin/"
       - "C:/Users/Eli/.pyenv/pyenv-win/shims/"
@@ -292,15 +319,20 @@ events:
         - "C:\\Program Files\\Git\\cmd"
         - "C:/Program Files/nodejs/"
         - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
-        - "C:/Users/Eli/scoop/shims"
-        - "C:\\Users\\Eli\\.pyenv\\pyenv-win\\bin"
-        - "C:/Users/Eli/.pyenv/pyenv-win/shims"
-        - "C:\\Users\\Eli\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/Eli/AppData/Local/Programs/Microsoft VS Code/bin"
-        - "C:\\Users\\Eli\\AppData\\Local\\Programs\\Senpwai"
-        - "C:/Users/Eli/AppData/Roaming/npm"
-        - "C:\\Users\\Eli\\AppData\\Local\\Programs\\Senpwai"
-        - "c:/users/eli/.local/bin"
+        - "C:/Program Files/CMake/bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools"
+        - "C:\\flutter\\flutter\\bin"
+        - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+        - "C:\\Users\\Eli\\scoop\\shims"
+        - "C:/Users/Eli/.pyenv/pyenv-win/bin"
+        - "C:\\Users\\Eli\\.pyenv\\pyenv-win\\shims"
+        - "C:/Users/Eli/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\Eli\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:/Users/Eli/AppData/Local/Programs/Senpwai"
+        - "C:\\Users\\Eli\\AppData\\Roaming\\npm"
+        - "C:/Users/Eli/AppData/Local/Programs/Senpwai"
+        - "c:\\users\\eli\\.local\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -335,6 +367,10 @@ events:
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/nodejs/"
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/flutter/flutter/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Users/Eli/scoop/shims/"
       - "C:/Users/Eli/.pyenv/pyenv-win/bin/"
       - "C:/Users/Eli/.pyenv/pyenv-win/shims/"
@@ -364,15 +400,20 @@ events:
         - "C:\\Program Files\\Git\\cmd"
         - "C:/Program Files/nodejs/"
         - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
-        - "C:/Users/Eli/scoop/shims"
-        - "C:\\Users\\Eli\\.pyenv\\pyenv-win\\bin"
-        - "C:/Users/Eli/.pyenv/pyenv-win/shims"
-        - "C:\\Users\\Eli\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/Eli/AppData/Local/Programs/Microsoft VS Code/bin"
-        - "C:\\Users\\Eli\\AppData\\Local\\Programs\\Senpwai"
-        - "C:/Users/Eli/AppData/Roaming/npm"
-        - "C:\\Users\\Eli\\AppData\\Local\\Programs\\Senpwai"
-        - "c:/users/eli/.local/bin"
+        - "C:/Program Files/CMake/bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools"
+        - "C:\\flutter\\flutter\\bin"
+        - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+        - "C:\\Users\\Eli\\scoop\\shims"
+        - "C:/Users/Eli/.pyenv/pyenv-win/bin"
+        - "C:\\Users\\Eli\\.pyenv\\pyenv-win\\shims"
+        - "C:/Users/Eli/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\Eli\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:/Users/Eli/AppData/Local/Programs/Senpwai"
+        - "C:\\Users\\Eli\\AppData\\Roaming\\npm"
+        - "C:/Users/Eli/AppData/Local/Programs/Senpwai"
+        - "c:\\users\\eli\\.local\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -407,6 +448,10 @@ events:
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/nodejs/"
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/flutter/flutter/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Users/Eli/scoop/shims/"
       - "C:/Users/Eli/.pyenv/pyenv-win/bin/"
       - "C:/Users/Eli/.pyenv/pyenv-win/shims/"
@@ -436,15 +481,20 @@ events:
         - "C:\\Program Files\\Git\\cmd"
         - "C:/Program Files/nodejs/"
         - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
-        - "C:/Users/Eli/scoop/shims"
-        - "C:\\Users\\Eli\\.pyenv\\pyenv-win\\bin"
-        - "C:/Users/Eli/.pyenv/pyenv-win/shims"
-        - "C:\\Users\\Eli\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/Eli/AppData/Local/Programs/Microsoft VS Code/bin"
-        - "C:\\Users\\Eli\\AppData\\Local\\Programs\\Senpwai"
-        - "C:/Users/Eli/AppData/Roaming/npm"
-        - "C:\\Users\\Eli\\AppData\\Local\\Programs\\Senpwai"
-        - "c:/users/eli/.local/bin"
+        - "C:/Program Files/CMake/bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools"
+        - "C:\\flutter\\flutter\\bin"
+        - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+        - "C:\\Users\\Eli\\scoop\\shims"
+        - "C:/Users/Eli/.pyenv/pyenv-win/bin"
+        - "C:\\Users\\Eli\\.pyenv\\pyenv-win\\shims"
+        - "C:/Users/Eli/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\Eli\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:/Users/Eli/AppData/Local/Programs/Senpwai"
+        - "C:\\Users\\Eli\\AppData\\Roaming\\npm"
+        - "C:/Users/Eli/AppData/Local/Programs/Senpwai"
+        - "c:\\users\\eli\\.local\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -479,6 +529,10 @@ events:
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/nodejs/"
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/flutter/flutter/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Users/Eli/scoop/shims/"
       - "C:/Users/Eli/.pyenv/pyenv-win/bin/"
       - "C:/Users/Eli/.pyenv/pyenv-win/shims/"
@@ -508,15 +562,20 @@ events:
         - "C:\\Program Files\\Git\\cmd"
         - "C:/Program Files/nodejs/"
         - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
-        - "C:/Users/Eli/scoop/shims"
-        - "C:\\Users\\Eli\\.pyenv\\pyenv-win\\bin"
-        - "C:/Users/Eli/.pyenv/pyenv-win/shims"
-        - "C:\\Users\\Eli\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/Eli/AppData/Local/Programs/Microsoft VS Code/bin"
-        - "C:\\Users\\Eli\\AppData\\Local\\Programs\\Senpwai"
-        - "C:/Users/Eli/AppData/Roaming/npm"
-        - "C:\\Users\\Eli\\AppData\\Local\\Programs\\Senpwai"
-        - "c:/users/eli/.local/bin"
+        - "C:/Program Files/CMake/bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools"
+        - "C:\\flutter\\flutter\\bin"
+        - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+        - "C:\\Users\\Eli\\scoop\\shims"
+        - "C:/Users/Eli/.pyenv/pyenv-win/bin"
+        - "C:\\Users\\Eli\\.pyenv\\pyenv-win\\shims"
+        - "C:/Users/Eli/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\Eli\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:/Users/Eli/AppData/Local/Programs/Senpwai"
+        - "C:\\Users\\Eli\\AppData\\Roaming\\npm"
+        - "C:/Users/Eli/AppData/Local/Programs/Senpwai"
+        - "c:\\users\\eli\\.local\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -551,6 +610,10 @@ events:
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/nodejs/"
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/flutter/flutter/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Users/Eli/scoop/shims/"
       - "C:/Users/Eli/.pyenv/pyenv-win/bin/"
       - "C:/Users/Eli/.pyenv/pyenv-win/shims/"
@@ -580,15 +643,20 @@ events:
         - "C:\\Program Files\\Git\\cmd"
         - "C:/Program Files/nodejs/"
         - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
-        - "C:/Users/Eli/scoop/shims"
-        - "C:\\Users\\Eli\\.pyenv\\pyenv-win\\bin"
-        - "C:/Users/Eli/.pyenv/pyenv-win/shims"
-        - "C:\\Users\\Eli\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/Eli/AppData/Local/Programs/Microsoft VS Code/bin"
-        - "C:\\Users\\Eli\\AppData\\Local\\Programs\\Senpwai"
-        - "C:/Users/Eli/AppData/Roaming/npm"
-        - "C:\\Users\\Eli\\AppData\\Local\\Programs\\Senpwai"
-        - "c:/users/eli/.local/bin"
+        - "C:/Program Files/CMake/bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools"
+        - "C:\\flutter\\flutter\\bin"
+        - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+        - "C:\\Users\\Eli\\scoop\\shims"
+        - "C:/Users/Eli/.pyenv/pyenv-win/bin"
+        - "C:\\Users\\Eli\\.pyenv\\pyenv-win\\shims"
+        - "C:/Users/Eli/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\Eli\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:/Users/Eli/AppData/Local/Programs/Senpwai"
+        - "C:\\Users\\Eli\\AppData\\Roaming\\npm"
+        - "C:/Users/Eli/AppData/Local/Programs/Senpwai"
+        - "c:\\users\\eli\\.local\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -623,6 +691,10 @@ events:
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/nodejs/"
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/flutter/flutter/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Users/Eli/scoop/shims/"
       - "C:/Users/Eli/.pyenv/pyenv-win/bin/"
       - "C:/Users/Eli/.pyenv/pyenv-win/shims/"
@@ -652,15 +724,20 @@ events:
         - "C:\\Program Files\\Git\\cmd"
         - "C:/Program Files/nodejs/"
         - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
-        - "C:/Users/Eli/scoop/shims"
-        - "C:\\Users\\Eli\\.pyenv\\pyenv-win\\bin"
-        - "C:/Users/Eli/.pyenv/pyenv-win/shims"
-        - "C:\\Users\\Eli\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/Eli/AppData/Local/Programs/Microsoft VS Code/bin"
-        - "C:\\Users\\Eli\\AppData\\Local\\Programs\\Senpwai"
-        - "C:/Users/Eli/AppData/Roaming/npm"
-        - "C:\\Users\\Eli\\AppData\\Local\\Programs\\Senpwai"
-        - "c:/users/eli/.local/bin"
+        - "C:/Program Files/CMake/bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools"
+        - "C:\\flutter\\flutter\\bin"
+        - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+        - "C:\\Users\\Eli\\scoop\\shims"
+        - "C:/Users/Eli/.pyenv/pyenv-win/bin"
+        - "C:\\Users\\Eli\\.pyenv\\pyenv-win\\shims"
+        - "C:/Users/Eli/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\Eli\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:/Users/Eli/AppData/Local/Programs/Senpwai"
+        - "C:\\Users\\Eli\\AppData\\Roaming\\npm"
+        - "C:/Users/Eli/AppData/Local/Programs/Senpwai"
+        - "c:\\users\\eli\\.local\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -695,6 +772,10 @@ events:
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/nodejs/"
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/flutter/flutter/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Users/Eli/scoop/shims/"
       - "C:/Users/Eli/.pyenv/pyenv-win/bin/"
       - "C:/Users/Eli/.pyenv/pyenv-win/shims/"
@@ -724,15 +805,20 @@ events:
         - "C:\\Program Files\\Git\\cmd"
         - "C:/Program Files/nodejs/"
         - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
-        - "C:/Users/Eli/scoop/shims"
-        - "C:\\Users\\Eli\\.pyenv\\pyenv-win\\bin"
-        - "C:/Users/Eli/.pyenv/pyenv-win/shims"
-        - "C:\\Users\\Eli\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/Eli/AppData/Local/Programs/Microsoft VS Code/bin"
-        - "C:\\Users\\Eli\\AppData\\Local\\Programs\\Senpwai"
-        - "C:/Users/Eli/AppData/Roaming/npm"
-        - "C:\\Users\\Eli\\AppData\\Local\\Programs\\Senpwai"
-        - "c:/users/eli/.local/bin"
+        - "C:/Program Files/CMake/bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools"
+        - "C:\\flutter\\flutter\\bin"
+        - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+        - "C:\\Users\\Eli\\scoop\\shims"
+        - "C:/Users/Eli/.pyenv/pyenv-win/bin"
+        - "C:\\Users\\Eli\\.pyenv\\pyenv-win\\shims"
+        - "C:/Users/Eli/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\Eli\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:/Users/Eli/AppData/Local/Programs/Senpwai"
+        - "C:\\Users\\Eli\\AppData\\Roaming\\npm"
+        - "C:/Users/Eli/AppData/Local/Programs/Senpwai"
+        - "c:\\users\\eli\\.local\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -767,6 +853,10 @@ events:
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/nodejs/"
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/flutter/flutter/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Users/Eli/scoop/shims/"
       - "C:/Users/Eli/.pyenv/pyenv-win/bin/"
       - "C:/Users/Eli/.pyenv/pyenv-win/shims/"
@@ -796,15 +886,20 @@ events:
         - "C:\\Program Files\\Git\\cmd"
         - "C:/Program Files/nodejs/"
         - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
-        - "C:/Users/Eli/scoop/shims"
-        - "C:\\Users\\Eli\\.pyenv\\pyenv-win\\bin"
-        - "C:/Users/Eli/.pyenv/pyenv-win/shims"
-        - "C:\\Users\\Eli\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/Eli/AppData/Local/Programs/Microsoft VS Code/bin"
-        - "C:\\Users\\Eli\\AppData\\Local\\Programs\\Senpwai"
-        - "C:/Users/Eli/AppData/Roaming/npm"
-        - "C:\\Users\\Eli\\AppData\\Local\\Programs\\Senpwai"
-        - "c:/users/eli/.local/bin"
+        - "C:/Program Files/CMake/bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools"
+        - "C:\\flutter\\flutter\\bin"
+        - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+        - "C:\\Users\\Eli\\scoop\\shims"
+        - "C:/Users/Eli/.pyenv/pyenv-win/bin"
+        - "C:\\Users\\Eli\\.pyenv\\pyenv-win\\shims"
+        - "C:/Users/Eli/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\Eli\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:/Users/Eli/AppData/Local/Programs/Senpwai"
+        - "C:\\Users\\Eli\\AppData\\Roaming\\npm"
+        - "C:/Users/Eli/AppData/Local/Programs/Senpwai"
+        - "c:\\users\\eli\\.local\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -839,6 +934,10 @@ events:
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/nodejs/"
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/flutter/flutter/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Users/Eli/scoop/shims/"
       - "C:/Users/Eli/.pyenv/pyenv-win/bin/"
       - "C:/Users/Eli/.pyenv/pyenv-win/shims/"
@@ -868,15 +967,20 @@ events:
         - "C:\\Program Files\\Git\\cmd"
         - "C:/Program Files/nodejs/"
         - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
-        - "C:/Users/Eli/scoop/shims"
-        - "C:\\Users\\Eli\\.pyenv\\pyenv-win\\bin"
-        - "C:/Users/Eli/.pyenv/pyenv-win/shims"
-        - "C:\\Users\\Eli\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/Eli/AppData/Local/Programs/Microsoft VS Code/bin"
-        - "C:\\Users\\Eli\\AppData\\Local\\Programs\\Senpwai"
-        - "C:/Users/Eli/AppData/Roaming/npm"
-        - "C:\\Users\\Eli\\AppData\\Local\\Programs\\Senpwai"
-        - "c:/users/eli/.local/bin"
+        - "C:/Program Files/CMake/bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools"
+        - "C:\\flutter\\flutter\\bin"
+        - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+        - "C:\\Users\\Eli\\scoop\\shims"
+        - "C:/Users/Eli/.pyenv/pyenv-win/bin"
+        - "C:\\Users\\Eli\\.pyenv\\pyenv-win\\shims"
+        - "C:/Users/Eli/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\Eli\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:/Users/Eli/AppData/Local/Programs/Senpwai"
+        - "C:\\Users\\Eli\\AppData\\Roaming\\npm"
+        - "C:/Users/Eli/AppData/Local/Programs/Senpwai"
+        - "c:\\users\\eli\\.local\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -911,6 +1015,10 @@ events:
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/nodejs/"
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/flutter/flutter/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Users/Eli/scoop/shims/"
       - "C:/Users/Eli/.pyenv/pyenv-win/bin/"
       - "C:/Users/Eli/.pyenv/pyenv-win/shims/"
@@ -962,6 +1070,18 @@ events:
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/tapi.com"
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/tapi.exe"
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/tapi"
+      - "C:/Program Files/CMake/bin/tapi.com"
+      - "C:/Program Files/CMake/bin/tapi.exe"
+      - "C:/Program Files/CMake/bin/tapi"
+      - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools/tapi.com"
+      - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools/tapi.exe"
+      - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools/tapi"
+      - "C:/flutter/flutter/bin/tapi.com"
+      - "C:/flutter/flutter/bin/tapi.exe"
+      - "C:/flutter/flutter/bin/tapi"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/tapi.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/tapi.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/tapi"
       - "C:/Users/Eli/scoop/shims/tapi.com"
       - "C:/Users/Eli/scoop/shims/tapi.exe"
       - "C:/Users/Eli/scoop/shims/tapi"
@@ -1005,15 +1125,20 @@ events:
         - "C:\\Program Files\\Git\\cmd"
         - "C:/Program Files/nodejs/"
         - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
-        - "C:/Users/Eli/scoop/shims"
-        - "C:\\Users\\Eli\\.pyenv\\pyenv-win\\bin"
-        - "C:/Users/Eli/.pyenv/pyenv-win/shims"
-        - "C:\\Users\\Eli\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/Eli/AppData/Local/Programs/Microsoft VS Code/bin"
-        - "C:\\Users\\Eli\\AppData\\Local\\Programs\\Senpwai"
-        - "C:/Users/Eli/AppData/Roaming/npm"
-        - "C:\\Users\\Eli\\AppData\\Local\\Programs\\Senpwai"
-        - "c:/users/eli/.local/bin"
+        - "C:/Program Files/CMake/bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools"
+        - "C:\\flutter\\flutter\\bin"
+        - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+        - "C:\\Users\\Eli\\scoop\\shims"
+        - "C:/Users/Eli/.pyenv/pyenv-win/bin"
+        - "C:\\Users\\Eli\\.pyenv\\pyenv-win\\shims"
+        - "C:/Users/Eli/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\Eli\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:/Users/Eli/AppData/Local/Programs/Senpwai"
+        - "C:\\Users\\Eli\\AppData\\Roaming\\npm"
+        - "C:/Users/Eli/AppData/Local/Programs/Senpwai"
+        - "c:\\users\\eli\\.local\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -1051,6 +1176,10 @@ events:
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/nodejs/"
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/flutter/flutter/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Users/Eli/scoop/shims/"
       - "C:/Users/Eli/.pyenv/pyenv-win/bin/"
       - "C:/Users/Eli/.pyenv/pyenv-win/shims/"
@@ -1102,6 +1231,18 @@ events:
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/gcc-ar-15.2.com"
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/gcc-ar-15.2.exe"
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/gcc-ar-15.2"
+      - "C:/Program Files/CMake/bin/gcc-ar-15.2.com"
+      - "C:/Program Files/CMake/bin/gcc-ar-15.2.exe"
+      - "C:/Program Files/CMake/bin/gcc-ar-15.2"
+      - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools/gcc-ar-15.2.com"
+      - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools/gcc-ar-15.2.exe"
+      - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools/gcc-ar-15.2"
+      - "C:/flutter/flutter/bin/gcc-ar-15.2.com"
+      - "C:/flutter/flutter/bin/gcc-ar-15.2.exe"
+      - "C:/flutter/flutter/bin/gcc-ar-15.2"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-15.2.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-15.2.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-15.2"
       - "C:/Users/Eli/scoop/shims/gcc-ar-15.2.com"
       - "C:/Users/Eli/scoop/shims/gcc-ar-15.2.exe"
       - "C:/Users/Eli/scoop/shims/gcc-ar-15.2"
@@ -1168,6 +1309,18 @@ events:
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/gcc-ar-15.com"
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/gcc-ar-15.exe"
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/gcc-ar-15"
+      - "C:/Program Files/CMake/bin/gcc-ar-15.com"
+      - "C:/Program Files/CMake/bin/gcc-ar-15.exe"
+      - "C:/Program Files/CMake/bin/gcc-ar-15"
+      - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools/gcc-ar-15.com"
+      - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools/gcc-ar-15.exe"
+      - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools/gcc-ar-15"
+      - "C:/flutter/flutter/bin/gcc-ar-15.com"
+      - "C:/flutter/flutter/bin/gcc-ar-15.exe"
+      - "C:/flutter/flutter/bin/gcc-ar-15"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-15.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-15.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-15"
       - "C:/Users/Eli/scoop/shims/gcc-ar-15.com"
       - "C:/Users/Eli/scoop/shims/gcc-ar-15.exe"
       - "C:/Users/Eli/scoop/shims/gcc-ar-15"
@@ -1234,6 +1387,18 @@ events:
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/gcc-ar15.com"
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/gcc-ar15.exe"
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/gcc-ar15"
+      - "C:/Program Files/CMake/bin/gcc-ar15.com"
+      - "C:/Program Files/CMake/bin/gcc-ar15.exe"
+      - "C:/Program Files/CMake/bin/gcc-ar15"
+      - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools/gcc-ar15.com"
+      - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools/gcc-ar15.exe"
+      - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools/gcc-ar15"
+      - "C:/flutter/flutter/bin/gcc-ar15.com"
+      - "C:/flutter/flutter/bin/gcc-ar15.exe"
+      - "C:/flutter/flutter/bin/gcc-ar15"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar15.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar15.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar15"
       - "C:/Users/Eli/scoop/shims/gcc-ar15.com"
       - "C:/Users/Eli/scoop/shims/gcc-ar15.exe"
       - "C:/Users/Eli/scoop/shims/gcc-ar15"
@@ -1278,15 +1443,20 @@ events:
         - "C:\\Program Files\\Git\\cmd"
         - "C:/Program Files/nodejs/"
         - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
-        - "C:/Users/Eli/scoop/shims"
-        - "C:\\Users\\Eli\\.pyenv\\pyenv-win\\bin"
-        - "C:/Users/Eli/.pyenv/pyenv-win/shims"
-        - "C:\\Users\\Eli\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/Eli/AppData/Local/Programs/Microsoft VS Code/bin"
-        - "C:\\Users\\Eli\\AppData\\Local\\Programs\\Senpwai"
-        - "C:/Users/Eli/AppData/Roaming/npm"
-        - "C:\\Users\\Eli\\AppData\\Local\\Programs\\Senpwai"
-        - "c:/users/eli/.local/bin"
+        - "C:/Program Files/CMake/bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools"
+        - "C:\\flutter\\flutter\\bin"
+        - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+        - "C:\\Users\\Eli\\scoop\\shims"
+        - "C:/Users/Eli/.pyenv/pyenv-win/bin"
+        - "C:\\Users\\Eli\\.pyenv\\pyenv-win\\shims"
+        - "C:/Users/Eli/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\Eli\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:/Users/Eli/AppData/Local/Programs/Senpwai"
+        - "C:\\Users\\Eli\\AppData\\Roaming\\npm"
+        - "C:/Users/Eli/AppData/Local/Programs/Senpwai"
+        - "c:\\users\\eli\\.local\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -1324,6 +1494,10 @@ events:
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/nodejs/"
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/flutter/flutter/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Users/Eli/scoop/shims/"
       - "C:/Users/Eli/.pyenv/pyenv-win/bin/"
       - "C:/Users/Eli/.pyenv/pyenv-win/shims/"
@@ -1375,6 +1549,18 @@ events:
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/gcc-ranlib-15.2.com"
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/gcc-ranlib-15.2.exe"
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/gcc-ranlib-15.2"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-15.2.com"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-15.2.exe"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-15.2"
+      - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools/gcc-ranlib-15.2.com"
+      - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools/gcc-ranlib-15.2.exe"
+      - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools/gcc-ranlib-15.2"
+      - "C:/flutter/flutter/bin/gcc-ranlib-15.2.com"
+      - "C:/flutter/flutter/bin/gcc-ranlib-15.2.exe"
+      - "C:/flutter/flutter/bin/gcc-ranlib-15.2"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-15.2.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-15.2.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-15.2"
       - "C:/Users/Eli/scoop/shims/gcc-ranlib-15.2.com"
       - "C:/Users/Eli/scoop/shims/gcc-ranlib-15.2.exe"
       - "C:/Users/Eli/scoop/shims/gcc-ranlib-15.2"
@@ -1441,6 +1627,18 @@ events:
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/gcc-ranlib-15.com"
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/gcc-ranlib-15.exe"
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/gcc-ranlib-15"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-15.com"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-15.exe"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-15"
+      - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools/gcc-ranlib-15.com"
+      - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools/gcc-ranlib-15.exe"
+      - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools/gcc-ranlib-15"
+      - "C:/flutter/flutter/bin/gcc-ranlib-15.com"
+      - "C:/flutter/flutter/bin/gcc-ranlib-15.exe"
+      - "C:/flutter/flutter/bin/gcc-ranlib-15"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-15.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-15.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-15"
       - "C:/Users/Eli/scoop/shims/gcc-ranlib-15.com"
       - "C:/Users/Eli/scoop/shims/gcc-ranlib-15.exe"
       - "C:/Users/Eli/scoop/shims/gcc-ranlib-15"
@@ -1507,6 +1705,18 @@ events:
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/gcc-ranlib15.com"
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/gcc-ranlib15.exe"
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/gcc-ranlib15"
+      - "C:/Program Files/CMake/bin/gcc-ranlib15.com"
+      - "C:/Program Files/CMake/bin/gcc-ranlib15.exe"
+      - "C:/Program Files/CMake/bin/gcc-ranlib15"
+      - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools/gcc-ranlib15.com"
+      - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools/gcc-ranlib15.exe"
+      - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools/gcc-ranlib15"
+      - "C:/flutter/flutter/bin/gcc-ranlib15.com"
+      - "C:/flutter/flutter/bin/gcc-ranlib15.exe"
+      - "C:/flutter/flutter/bin/gcc-ranlib15"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib15.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib15.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib15"
       - "C:/Users/Eli/scoop/shims/gcc-ranlib15.com"
       - "C:/Users/Eli/scoop/shims/gcc-ranlib15.exe"
       - "C:/Users/Eli/scoop/shims/gcc-ranlib15"
@@ -1551,15 +1761,20 @@ events:
         - "C:\\Program Files\\Git\\cmd"
         - "C:/Program Files/nodejs/"
         - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
-        - "C:/Users/Eli/scoop/shims"
-        - "C:\\Users\\Eli\\.pyenv\\pyenv-win\\bin"
-        - "C:/Users/Eli/.pyenv/pyenv-win/shims"
-        - "C:\\Users\\Eli\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/Eli/AppData/Local/Programs/Microsoft VS Code/bin"
-        - "C:\\Users\\Eli\\AppData\\Local\\Programs\\Senpwai"
-        - "C:/Users/Eli/AppData/Roaming/npm"
-        - "C:\\Users\\Eli\\AppData\\Local\\Programs\\Senpwai"
-        - "c:/users/eli/.local/bin"
+        - "C:/Program Files/CMake/bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools"
+        - "C:\\flutter\\flutter\\bin"
+        - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+        - "C:\\Users\\Eli\\scoop\\shims"
+        - "C:/Users/Eli/.pyenv/pyenv-win/bin"
+        - "C:\\Users\\Eli\\.pyenv\\pyenv-win\\shims"
+        - "C:/Users/Eli/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\Eli\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:/Users/Eli/AppData/Local/Programs/Senpwai"
+        - "C:\\Users\\Eli\\AppData\\Roaming\\npm"
+        - "C:/Users/Eli/AppData/Local/Programs/Senpwai"
+        - "c:\\users\\eli\\.local\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -1603,15 +1818,20 @@ events:
         - "C:\\Program Files\\Git\\cmd"
         - "C:/Program Files/nodejs/"
         - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
-        - "C:/Users/Eli/scoop/shims"
-        - "C:\\Users\\Eli\\.pyenv\\pyenv-win\\bin"
-        - "C:/Users/Eli/.pyenv/pyenv-win/shims"
-        - "C:\\Users\\Eli\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/Eli/AppData/Local/Programs/Microsoft VS Code/bin"
-        - "C:\\Users\\Eli\\AppData\\Local\\Programs\\Senpwai"
-        - "C:/Users/Eli/AppData/Roaming/npm"
-        - "C:\\Users\\Eli\\AppData\\Local\\Programs\\Senpwai"
-        - "c:/users/eli/.local/bin"
+        - "C:/Program Files/CMake/bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools"
+        - "C:\\flutter\\flutter\\bin"
+        - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+        - "C:\\Users\\Eli\\scoop\\shims"
+        - "C:/Users/Eli/.pyenv/pyenv-win/bin"
+        - "C:\\Users\\Eli\\.pyenv\\pyenv-win\\shims"
+        - "C:/Users/Eli/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\Eli\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:/Users/Eli/AppData/Local/Programs/Senpwai"
+        - "C:\\Users\\Eli\\AppData\\Roaming\\npm"
+        - "C:/Users/Eli/AppData/Local/Programs/Senpwai"
+        - "c:\\users\\eli\\.local\\bin"
   -
     kind: "message-v1"
     backtrace:
@@ -1632,7 +1852,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
       
       The C compiler identification is GNU, found in:
-        D:/Documents/Computer_Graphics/code/model_loading/build/CMakeFiles/4.1.1/CompilerIdC/a.exe
+        D:/Documents/Computer_Graphics/code/computer_graphics/model_loading/build/CMakeFiles/4.1.1/CompilerIdC/a.exe
       
   -
     kind: "find-v1"
@@ -1671,6 +1891,10 @@ events:
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/nodejs/"
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/flutter/flutter/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Users/Eli/scoop/shims/"
       - "C:/Users/Eli/.pyenv/pyenv-win/bin/"
       - "C:/Users/Eli/.pyenv/pyenv-win/shims/"
@@ -1722,6 +1946,18 @@ events:
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/gcc-ar-15.2.com"
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/gcc-ar-15.2.exe"
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/gcc-ar-15.2"
+      - "C:/Program Files/CMake/bin/gcc-ar-15.2.com"
+      - "C:/Program Files/CMake/bin/gcc-ar-15.2.exe"
+      - "C:/Program Files/CMake/bin/gcc-ar-15.2"
+      - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools/gcc-ar-15.2.com"
+      - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools/gcc-ar-15.2.exe"
+      - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools/gcc-ar-15.2"
+      - "C:/flutter/flutter/bin/gcc-ar-15.2.com"
+      - "C:/flutter/flutter/bin/gcc-ar-15.2.exe"
+      - "C:/flutter/flutter/bin/gcc-ar-15.2"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-15.2.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-15.2.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-15.2"
       - "C:/Users/Eli/scoop/shims/gcc-ar-15.2.com"
       - "C:/Users/Eli/scoop/shims/gcc-ar-15.2.exe"
       - "C:/Users/Eli/scoop/shims/gcc-ar-15.2"
@@ -1788,6 +2024,18 @@ events:
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/gcc-ar-15.com"
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/gcc-ar-15.exe"
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/gcc-ar-15"
+      - "C:/Program Files/CMake/bin/gcc-ar-15.com"
+      - "C:/Program Files/CMake/bin/gcc-ar-15.exe"
+      - "C:/Program Files/CMake/bin/gcc-ar-15"
+      - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools/gcc-ar-15.com"
+      - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools/gcc-ar-15.exe"
+      - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools/gcc-ar-15"
+      - "C:/flutter/flutter/bin/gcc-ar-15.com"
+      - "C:/flutter/flutter/bin/gcc-ar-15.exe"
+      - "C:/flutter/flutter/bin/gcc-ar-15"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-15.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-15.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-15"
       - "C:/Users/Eli/scoop/shims/gcc-ar-15.com"
       - "C:/Users/Eli/scoop/shims/gcc-ar-15.exe"
       - "C:/Users/Eli/scoop/shims/gcc-ar-15"
@@ -1854,6 +2102,18 @@ events:
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/gcc-ar15.com"
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/gcc-ar15.exe"
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/gcc-ar15"
+      - "C:/Program Files/CMake/bin/gcc-ar15.com"
+      - "C:/Program Files/CMake/bin/gcc-ar15.exe"
+      - "C:/Program Files/CMake/bin/gcc-ar15"
+      - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools/gcc-ar15.com"
+      - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools/gcc-ar15.exe"
+      - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools/gcc-ar15"
+      - "C:/flutter/flutter/bin/gcc-ar15.com"
+      - "C:/flutter/flutter/bin/gcc-ar15.exe"
+      - "C:/flutter/flutter/bin/gcc-ar15"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar15.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar15.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar15"
       - "C:/Users/Eli/scoop/shims/gcc-ar15.com"
       - "C:/Users/Eli/scoop/shims/gcc-ar15.exe"
       - "C:/Users/Eli/scoop/shims/gcc-ar15"
@@ -1898,15 +2158,20 @@ events:
         - "C:\\Program Files\\Git\\cmd"
         - "C:/Program Files/nodejs/"
         - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
-        - "C:/Users/Eli/scoop/shims"
-        - "C:\\Users\\Eli\\.pyenv\\pyenv-win\\bin"
-        - "C:/Users/Eli/.pyenv/pyenv-win/shims"
-        - "C:\\Users\\Eli\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/Eli/AppData/Local/Programs/Microsoft VS Code/bin"
-        - "C:\\Users\\Eli\\AppData\\Local\\Programs\\Senpwai"
-        - "C:/Users/Eli/AppData/Roaming/npm"
-        - "C:\\Users\\Eli\\AppData\\Local\\Programs\\Senpwai"
-        - "c:/users/eli/.local/bin"
+        - "C:/Program Files/CMake/bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools"
+        - "C:\\flutter\\flutter\\bin"
+        - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+        - "C:\\Users\\Eli\\scoop\\shims"
+        - "C:/Users/Eli/.pyenv/pyenv-win/bin"
+        - "C:\\Users\\Eli\\.pyenv\\pyenv-win\\shims"
+        - "C:/Users/Eli/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\Eli\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:/Users/Eli/AppData/Local/Programs/Senpwai"
+        - "C:\\Users\\Eli\\AppData\\Roaming\\npm"
+        - "C:/Users/Eli/AppData/Local/Programs/Senpwai"
+        - "c:\\users\\eli\\.local\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -1944,6 +2209,10 @@ events:
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/nodejs/"
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/flutter/flutter/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Users/Eli/scoop/shims/"
       - "C:/Users/Eli/.pyenv/pyenv-win/bin/"
       - "C:/Users/Eli/.pyenv/pyenv-win/shims/"
@@ -1995,6 +2264,18 @@ events:
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/gcc-ranlib-15.2.com"
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/gcc-ranlib-15.2.exe"
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/gcc-ranlib-15.2"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-15.2.com"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-15.2.exe"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-15.2"
+      - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools/gcc-ranlib-15.2.com"
+      - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools/gcc-ranlib-15.2.exe"
+      - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools/gcc-ranlib-15.2"
+      - "C:/flutter/flutter/bin/gcc-ranlib-15.2.com"
+      - "C:/flutter/flutter/bin/gcc-ranlib-15.2.exe"
+      - "C:/flutter/flutter/bin/gcc-ranlib-15.2"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-15.2.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-15.2.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-15.2"
       - "C:/Users/Eli/scoop/shims/gcc-ranlib-15.2.com"
       - "C:/Users/Eli/scoop/shims/gcc-ranlib-15.2.exe"
       - "C:/Users/Eli/scoop/shims/gcc-ranlib-15.2"
@@ -2061,6 +2342,18 @@ events:
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/gcc-ranlib-15.com"
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/gcc-ranlib-15.exe"
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/gcc-ranlib-15"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-15.com"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-15.exe"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-15"
+      - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools/gcc-ranlib-15.com"
+      - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools/gcc-ranlib-15.exe"
+      - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools/gcc-ranlib-15"
+      - "C:/flutter/flutter/bin/gcc-ranlib-15.com"
+      - "C:/flutter/flutter/bin/gcc-ranlib-15.exe"
+      - "C:/flutter/flutter/bin/gcc-ranlib-15"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-15.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-15.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-15"
       - "C:/Users/Eli/scoop/shims/gcc-ranlib-15.com"
       - "C:/Users/Eli/scoop/shims/gcc-ranlib-15.exe"
       - "C:/Users/Eli/scoop/shims/gcc-ranlib-15"
@@ -2127,6 +2420,18 @@ events:
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/gcc-ranlib15.com"
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/gcc-ranlib15.exe"
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/gcc-ranlib15"
+      - "C:/Program Files/CMake/bin/gcc-ranlib15.com"
+      - "C:/Program Files/CMake/bin/gcc-ranlib15.exe"
+      - "C:/Program Files/CMake/bin/gcc-ranlib15"
+      - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools/gcc-ranlib15.com"
+      - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools/gcc-ranlib15.exe"
+      - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools/gcc-ranlib15"
+      - "C:/flutter/flutter/bin/gcc-ranlib15.com"
+      - "C:/flutter/flutter/bin/gcc-ranlib15.exe"
+      - "C:/flutter/flutter/bin/gcc-ranlib15"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib15.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib15.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib15"
       - "C:/Users/Eli/scoop/shims/gcc-ranlib15.com"
       - "C:/Users/Eli/scoop/shims/gcc-ranlib15.exe"
       - "C:/Users/Eli/scoop/shims/gcc-ranlib15"
@@ -2171,15 +2476,20 @@ events:
         - "C:\\Program Files\\Git\\cmd"
         - "C:/Program Files/nodejs/"
         - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
-        - "C:/Users/Eli/scoop/shims"
-        - "C:\\Users\\Eli\\.pyenv\\pyenv-win\\bin"
-        - "C:/Users/Eli/.pyenv/pyenv-win/shims"
-        - "C:\\Users\\Eli\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/Eli/AppData/Local/Programs/Microsoft VS Code/bin"
-        - "C:\\Users\\Eli\\AppData\\Local\\Programs\\Senpwai"
-        - "C:/Users/Eli/AppData/Roaming/npm"
-        - "C:\\Users\\Eli\\AppData\\Local\\Programs\\Senpwai"
-        - "c:/users/eli/.local/bin"
+        - "C:/Program Files/CMake/bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools"
+        - "C:\\flutter\\flutter\\bin"
+        - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+        - "C:\\Users\\Eli\\scoop\\shims"
+        - "C:/Users/Eli/.pyenv/pyenv-win/bin"
+        - "C:\\Users\\Eli\\.pyenv\\pyenv-win\\shims"
+        - "C:/Users/Eli/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\Eli\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:/Users/Eli/AppData/Local/Programs/Senpwai"
+        - "C:\\Users\\Eli\\AppData\\Roaming\\npm"
+        - "C:/Users/Eli/AppData/Local/Programs/Senpwai"
+        - "c:\\users\\eli\\.local\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -2217,6 +2527,10 @@ events:
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/nodejs/"
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/flutter/flutter/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Users/Eli/scoop/shims/"
       - "C:/Users/Eli/.pyenv/pyenv-win/bin/"
       - "C:/Users/Eli/.pyenv/pyenv-win/shims/"
@@ -2261,15 +2575,20 @@ events:
         - "C:\\Program Files\\Git\\cmd"
         - "C:/Program Files/nodejs/"
         - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
-        - "C:/Users/Eli/scoop/shims"
-        - "C:\\Users\\Eli\\.pyenv\\pyenv-win\\bin"
-        - "C:/Users/Eli/.pyenv/pyenv-win/shims"
-        - "C:\\Users\\Eli\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/Eli/AppData/Local/Programs/Microsoft VS Code/bin"
-        - "C:\\Users\\Eli\\AppData\\Local\\Programs\\Senpwai"
-        - "C:/Users/Eli/AppData/Roaming/npm"
-        - "C:\\Users\\Eli\\AppData\\Local\\Programs\\Senpwai"
-        - "c:/users/eli/.local/bin"
+        - "C:/Program Files/CMake/bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:/Users/Eli/AppData/Local/Android/Sdk/platform-tools"
+        - "C:\\flutter\\flutter\\bin"
+        - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+        - "C:\\Users\\Eli\\scoop\\shims"
+        - "C:/Users/Eli/.pyenv/pyenv-win/bin"
+        - "C:\\Users\\Eli\\.pyenv\\pyenv-win\\shims"
+        - "C:/Users/Eli/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\Eli\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:/Users/Eli/AppData/Local/Programs/Senpwai"
+        - "C:\\Users\\Eli\\AppData\\Roaming\\npm"
+        - "C:/Users/Eli/AppData/Local/Programs/Senpwai"
+        - "c:\\users\\eli\\.local\\bin"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/model_loading"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/msys64/ucrt64"
@@ -2286,8 +2605,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "D:/Documents/Computer_Graphics/code/model_loading/build/CMakeFiles/CMakeScratch/TryCompile-6lw8ky"
-      binary: "D:/Documents/Computer_Graphics/code/model_loading/build/CMakeFiles/CMakeScratch/TryCompile-6lw8ky"
+      source: "D:/Documents/Computer_Graphics/code/computer_graphics/model_loading/build/CMakeFiles/CMakeScratch/TryCompile-t9tkzw"
+      binary: "D:/Documents/Computer_Graphics/code/computer_graphics/model_loading/build/CMakeFiles/CMakeScratch/TryCompile-t9tkzw"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -2297,13 +2616,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/Documents/Computer_Graphics/code/model_loading/build/CMakeFiles/CMakeScratch/TryCompile-6lw8ky'
+        Change Dir: 'D:/Documents/Computer_Graphics/code/computer_graphics/model_loading/build/CMakeFiles/CMakeScratch/TryCompile-t9tkzw'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_3eb65/fast
-        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_3eb65.dir\\build.make CMakeFiles/cmTC_3eb65.dir/build
-        mingw32-make[1]: Entering directory 'D:/Documents/Computer_Graphics/code/model_loading/build/CMakeFiles/CMakeScratch/TryCompile-6lw8ky'
-        Building CXX object CMakeFiles/cmTC_3eb65.dir/CMakeCXXCompilerABI.cpp.obj
-        C:\\msys64\\ucrt64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_3eb65.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_68b35/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_68b35.dir\\build.make CMakeFiles/cmTC_68b35.dir/build
+        mingw32-make[1]: Entering directory 'D:/Documents/Computer_Graphics/code/computer_graphics/model_loading/build/CMakeFiles/CMakeScratch/TryCompile-t9tkzw'
+        Building CXX object CMakeFiles/cmTC_68b35.dir/CMakeCXXCompilerABI.cpp.obj
+        C:\\msys64\\ucrt64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_68b35.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
         Using built-in specs.
         COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\g++.exe
         Target: x86_64-w64-mingw32
@@ -2311,8 +2630,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 15.2.0 (Rev8, Built by MSYS2 project) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_3eb65.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_3eb65.dir\\'
-         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/cc1plus.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_3eb65.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\Eli\\AppData\\Local\\Temp\\cc7xmfcR.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_68b35.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_68b35.dir\\'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/cc1plus.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_68b35.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\Eli\\AppData\\Local\\Temp\\ccrLf00N.s
         GNU C++17 (Rev8, Built by MSYS2 project) version 15.2.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 15.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
         
@@ -2337,14 +2656,14 @@ events:
          C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed
         End of search list.
         Compiler executable checksum: 3a1a95c83f0136a64748ec8c5a2a87f3
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_3eb65.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_3eb65.dir\\'
-         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_3eb65.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\Eli\\AppData\\Local\\Temp\\cc7xmfcR.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_68b35.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_68b35.dir\\'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_68b35.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\Eli\\AppData\\Local\\Temp\\ccrLf00N.s
         GNU assembler version 2.45 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.45
         COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_3eb65.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_3eb65.dir\\CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_3eb65.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_3eb65.dir\\link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_68b35.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_68b35.dir\\CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_68b35.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_68b35.dir\\link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\g++.exe
         COLLECT_LTO_WRAPPER=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe
@@ -2355,16 +2674,16 @@ events:
         gcc version 15.2.0 (Rev8, Built by MSYS2 project) 
         COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3eb65.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_3eb65.'
-         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Eli\\AppData\\Local\\Temp\\cc0DT25f.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_3eb65.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_3eb65.dir/objects.a --no-whole-archive --out-implib libcmTC_3eb65.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_68b35.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_68b35.'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Eli\\AppData\\Local\\Temp\\ccl2EQOf.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_68b35.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_68b35.dir/objects.a --no-whole-archive --out-implib libcmTC_68b35.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
         collect2 version 15.2.0
-        C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Eli\\AppData\\Local\\Temp\\cc0DT25f.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_3eb65.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_3eb65.dir/objects.a --no-whole-archive --out-implib libcmTC_3eb65.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Eli\\AppData\\Local\\Temp\\ccl2EQOf.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_68b35.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_68b35.dir/objects.a --no-whole-archive --out-implib libcmTC_68b35.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
         GNU ld (GNU Binutils) 2.45
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3eb65.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_3eb65.'
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_3eb65.dir/objects.a
-        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_3eb65.dir/objects.a @CMakeFiles\\cmTC_3eb65.dir\\objects1.rsp
-        C:\\msys64\\ucrt64\\bin\\g++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_3eb65.dir/objects.a -Wl,--no-whole-archive -o cmTC_3eb65.exe -Wl,--out-implib,libcmTC_3eb65.dll.a -Wl,--major-image-version,0,--minor-image-version,0
-        mingw32-make[1]: Leaving directory 'D:/Documents/Computer_Graphics/code/model_loading/build/CMakeFiles/CMakeScratch/TryCompile-6lw8ky'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_68b35.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_68b35.'
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_68b35.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_68b35.dir/objects.a @CMakeFiles\\cmTC_68b35.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\g++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_68b35.dir/objects.a -Wl,--no-whole-archive -o cmTC_68b35.exe -Wl,--out-implib,libcmTC_68b35.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        mingw32-make[1]: Leaving directory 'D:/Documents/Computer_Graphics/code/computer_graphics/model_loading/build/CMakeFiles/CMakeScratch/TryCompile-t9tkzw'
         
       exitCode: 0
   -
@@ -2403,13 +2722,13 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: 'D:/Documents/Computer_Graphics/code/model_loading/build/CMakeFiles/CMakeScratch/TryCompile-6lw8ky']
+        ignore line: [Change Dir: 'D:/Documents/Computer_Graphics/code/computer_graphics/model_loading/build/CMakeFiles/CMakeScratch/TryCompile-t9tkzw']
         ignore line: []
-        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_3eb65/fast]
-        ignore line: [C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_3eb65.dir\\build.make CMakeFiles/cmTC_3eb65.dir/build]
-        ignore line: [mingw32-make[1]: Entering directory 'D:/Documents/Computer_Graphics/code/model_loading/build/CMakeFiles/CMakeScratch/TryCompile-6lw8ky']
-        ignore line: [Building CXX object CMakeFiles/cmTC_3eb65.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: [C:\\msys64\\ucrt64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_3eb65.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"]
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_68b35/fast]
+        ignore line: [C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_68b35.dir\\build.make CMakeFiles/cmTC_68b35.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'D:/Documents/Computer_Graphics/code/computer_graphics/model_loading/build/CMakeFiles/CMakeScratch/TryCompile-t9tkzw']
+        ignore line: [Building CXX object CMakeFiles/cmTC_68b35.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [C:\\msys64\\ucrt64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_68b35.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\g++.exe]
         ignore line: [Target: x86_64-w64-mingw32]
@@ -2417,8 +2736,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 15.2.0 (Rev8  Built by MSYS2 project) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_3eb65.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_3eb65.dir\\']
-        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/cc1plus.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_3eb65.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\Eli\\AppData\\Local\\Temp\\cc7xmfcR.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_68b35.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_68b35.dir\\']
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/cc1plus.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_68b35.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\Eli\\AppData\\Local\\Temp\\ccrLf00N.s]
         ignore line: [GNU C++17 (Rev8  Built by MSYS2 project) version 15.2.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -2443,8 +2762,8 @@ events:
         ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 3a1a95c83f0136a64748ec8c5a2a87f3]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_3eb65.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_3eb65.dir\\']
-        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_3eb65.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\Eli\\AppData\\Local\\Temp\\cc7xmfcR.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_68b35.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_68b35.dir\\']
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_68b35.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\Eli\\AppData\\Local\\Temp\\ccrLf00N.s]
         ignore line: [GNU assembler version 2.45 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.45]
         ignore line: [COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/]
@@ -2455,9 +2774,9 @@ events:
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_3eb65.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_3eb65.dir\\CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_3eb65.exe]
-        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_3eb65.dir\\link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_68b35.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_68b35.dir\\CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_68b35.exe]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_68b35.dir\\link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\g++.exe]
         ignore line: [COLLECT_LTO_WRAPPER=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe]
@@ -2475,13 +2794,13 @@ events:
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3eb65.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_3eb65.']
-        link line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Eli\\AppData\\Local\\Temp\\cc0DT25f.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_3eb65.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_3eb65.dir/objects.a --no-whole-archive --out-implib libcmTC_3eb65.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_68b35.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_68b35.']
+        link line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Eli\\AppData\\Local\\Temp\\ccl2EQOf.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_68b35.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_68b35.dir/objects.a --no-whole-archive --out-implib libcmTC_68b35.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll] ==> ignore
           arg [-plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\Eli\\AppData\\Local\\Temp\\cc0DT25f.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\Eli\\AppData\\Local\\Temp\\ccl2EQOf.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
@@ -2503,7 +2822,7 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_3eb65.exe] ==> ignore
+          arg [cmTC_68b35.exe] ==> ignore
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o]
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o]
           arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0]
@@ -2514,10 +2833,10 @@ events:
           arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..]
           arg [-v] ==> ignore
           arg [--whole-archive] ==> ignore
-          arg [CMakeFiles\\cmTC_3eb65.dir/objects.a] ==> ignore
+          arg [CMakeFiles\\cmTC_68b35.dir/objects.a] ==> ignore
           arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_3eb65.dll.a] ==> ignore
+          arg [libcmTC_68b35.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -2543,7 +2862,7 @@ events:
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o]
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
         ignore line: [collect2 version 15.2.0]
-        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Eli\\AppData\\Local\\Temp\\cc0DT25f.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_3eb65.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_3eb65.dir/objects.a --no-whole-archive --out-implib libcmTC_3eb65.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Eli\\AppData\\Local\\Temp\\ccl2EQOf.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_68b35.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_68b35.dir/objects.a --no-whole-archive --out-implib libcmTC_68b35.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
         linker tool for 'CXX': C:/msys64/ucrt64/x86_64-w64-mingw32/bin/ld.exe
         remove lib [msvcrt]
         remove lib [msvcrt]
@@ -2582,8 +2901,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "D:/Documents/Computer_Graphics/code/model_loading/build/CMakeFiles/CMakeScratch/TryCompile-howe3w"
-      binary: "D:/Documents/Computer_Graphics/code/model_loading/build/CMakeFiles/CMakeScratch/TryCompile-howe3w"
+      source: "D:/Documents/Computer_Graphics/code/computer_graphics/model_loading/build/CMakeFiles/CMakeScratch/TryCompile-5i00v1"
+      binary: "D:/Documents/Computer_Graphics/code/computer_graphics/model_loading/build/CMakeFiles/CMakeScratch/TryCompile-5i00v1"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -2592,13 +2911,13 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/Documents/Computer_Graphics/code/model_loading/build/CMakeFiles/CMakeScratch/TryCompile-howe3w'
+        Change Dir: 'D:/Documents/Computer_Graphics/code/computer_graphics/model_loading/build/CMakeFiles/CMakeScratch/TryCompile-5i00v1'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_3cad9/fast
-        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_3cad9.dir\\build.make CMakeFiles/cmTC_3cad9.dir/build
-        mingw32-make[1]: Entering directory 'D:/Documents/Computer_Graphics/code/model_loading/build/CMakeFiles/CMakeScratch/TryCompile-howe3w'
-        Building C object CMakeFiles/cmTC_3cad9.dir/CMakeCCompilerABI.c.obj
-        C:\\msys64\\ucrt64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_3cad9.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_10a7d/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_10a7d.dir\\build.make CMakeFiles/cmTC_10a7d.dir/build
+        mingw32-make[1]: Entering directory 'D:/Documents/Computer_Graphics/code/computer_graphics/model_loading/build/CMakeFiles/CMakeScratch/TryCompile-5i00v1'
+        Building C object CMakeFiles/cmTC_10a7d.dir/CMakeCCompilerABI.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_10a7d.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
         Using built-in specs.
         COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\gcc.exe
         Target: x86_64-w64-mingw32
@@ -2606,8 +2925,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 15.2.0 (Rev8, Built by MSYS2 project) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_3cad9.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_3cad9.dir\\'
-         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/cc1.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_3cad9.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -o C:\\Users\\Eli\\AppData\\Local\\Temp\\cc5DFTHE.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_10a7d.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_10a7d.dir\\'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/cc1.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_10a7d.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -o C:\\Users\\Eli\\AppData\\Local\\Temp\\cc0QMiyk.s
         GNU C23 (Rev8, Built by MSYS2 project) version 15.2.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 15.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
         
@@ -2626,14 +2945,14 @@ events:
          C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed
         End of search list.
         Compiler executable checksum: f68563dd6aebdc6b84233a210e98d3c3
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_3cad9.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_3cad9.dir\\'
-         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_3cad9.dir\\CMakeCCompilerABI.c.obj C:\\Users\\Eli\\AppData\\Local\\Temp\\cc5DFTHE.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_10a7d.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_10a7d.dir\\'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_10a7d.dir\\CMakeCCompilerABI.c.obj C:\\Users\\Eli\\AppData\\Local\\Temp\\cc0QMiyk.s
         GNU assembler version 2.45 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.45
         COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_3cad9.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_3cad9.dir\\CMakeCCompilerABI.c.'
-        Linking C executable cmTC_3cad9.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_3cad9.dir\\link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_10a7d.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_10a7d.dir\\CMakeCCompilerABI.c.'
+        Linking C executable cmTC_10a7d.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_10a7d.dir\\link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\gcc.exe
         COLLECT_LTO_WRAPPER=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe
@@ -2644,16 +2963,16 @@ events:
         gcc version 15.2.0 (Rev8, Built by MSYS2 project) 
         COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3cad9.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_3cad9.'
-         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Eli\\AppData\\Local\\Temp\\cc3EGpy5.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_3cad9.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_3cad9.dir/objects.a --no-whole-archive --out-implib libcmTC_3cad9.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_10a7d.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_10a7d.'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Eli\\AppData\\Local\\Temp\\ccX2lGnx.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_10a7d.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_10a7d.dir/objects.a --no-whole-archive --out-implib libcmTC_10a7d.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
         collect2 version 15.2.0
-        C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Eli\\AppData\\Local\\Temp\\cc3EGpy5.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_3cad9.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_3cad9.dir/objects.a --no-whole-archive --out-implib libcmTC_3cad9.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Eli\\AppData\\Local\\Temp\\ccX2lGnx.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_10a7d.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_10a7d.dir/objects.a --no-whole-archive --out-implib libcmTC_10a7d.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
         GNU ld (GNU Binutils) 2.45
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3cad9.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_3cad9.'
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_3cad9.dir/objects.a
-        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_3cad9.dir/objects.a @CMakeFiles\\cmTC_3cad9.dir\\objects1.rsp
-        C:\\msys64\\ucrt64\\bin\\gcc.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_3cad9.dir/objects.a -Wl,--no-whole-archive -o cmTC_3cad9.exe -Wl,--out-implib,libcmTC_3cad9.dll.a -Wl,--major-image-version,0,--minor-image-version,0
-        mingw32-make[1]: Leaving directory 'D:/Documents/Computer_Graphics/code/model_loading/build/CMakeFiles/CMakeScratch/TryCompile-howe3w'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_10a7d.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_10a7d.'
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_10a7d.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_10a7d.dir/objects.a @CMakeFiles\\cmTC_10a7d.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\gcc.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_10a7d.dir/objects.a -Wl,--no-whole-archive -o cmTC_10a7d.exe -Wl,--out-implib,libcmTC_10a7d.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        mingw32-make[1]: Leaving directory 'D:/Documents/Computer_Graphics/code/computer_graphics/model_loading/build/CMakeFiles/CMakeScratch/TryCompile-5i00v1'
         
       exitCode: 0
   -
@@ -2686,13 +3005,13 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: 'D:/Documents/Computer_Graphics/code/model_loading/build/CMakeFiles/CMakeScratch/TryCompile-howe3w']
+        ignore line: [Change Dir: 'D:/Documents/Computer_Graphics/code/computer_graphics/model_loading/build/CMakeFiles/CMakeScratch/TryCompile-5i00v1']
         ignore line: []
-        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_3cad9/fast]
-        ignore line: [C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_3cad9.dir\\build.make CMakeFiles/cmTC_3cad9.dir/build]
-        ignore line: [mingw32-make[1]: Entering directory 'D:/Documents/Computer_Graphics/code/model_loading/build/CMakeFiles/CMakeScratch/TryCompile-howe3w']
-        ignore line: [Building C object CMakeFiles/cmTC_3cad9.dir/CMakeCCompilerABI.c.obj]
-        ignore line: [C:\\msys64\\ucrt64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_3cad9.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"]
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_10a7d/fast]
+        ignore line: [C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_10a7d.dir\\build.make CMakeFiles/cmTC_10a7d.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'D:/Documents/Computer_Graphics/code/computer_graphics/model_loading/build/CMakeFiles/CMakeScratch/TryCompile-5i00v1']
+        ignore line: [Building C object CMakeFiles/cmTC_10a7d.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [C:\\msys64\\ucrt64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_10a7d.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\gcc.exe]
         ignore line: [Target: x86_64-w64-mingw32]
@@ -2700,8 +3019,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 15.2.0 (Rev8  Built by MSYS2 project) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_3cad9.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_3cad9.dir\\']
-        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/cc1.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_3cad9.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -o C:\\Users\\Eli\\AppData\\Local\\Temp\\cc5DFTHE.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_10a7d.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_10a7d.dir\\']
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/cc1.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_10a7d.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -o C:\\Users\\Eli\\AppData\\Local\\Temp\\cc0QMiyk.s]
         ignore line: [GNU C23 (Rev8  Built by MSYS2 project) version 15.2.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -2720,8 +3039,8 @@ events:
         ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: f68563dd6aebdc6b84233a210e98d3c3]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_3cad9.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_3cad9.dir\\']
-        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_3cad9.dir\\CMakeCCompilerABI.c.obj C:\\Users\\Eli\\AppData\\Local\\Temp\\cc5DFTHE.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_10a7d.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_10a7d.dir\\']
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_10a7d.dir\\CMakeCCompilerABI.c.obj C:\\Users\\Eli\\AppData\\Local\\Temp\\cc0QMiyk.s]
         ignore line: [GNU assembler version 2.45 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.45]
         ignore line: [COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/]
@@ -2732,9 +3051,9 @@ events:
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_3cad9.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_3cad9.dir\\CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_3cad9.exe]
-        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_3cad9.dir\\link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_10a7d.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_10a7d.dir\\CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_10a7d.exe]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_10a7d.dir\\link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\gcc.exe]
         ignore line: [COLLECT_LTO_WRAPPER=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe]
@@ -2752,13 +3071,13 @@ events:
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3cad9.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_3cad9.']
-        link line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Eli\\AppData\\Local\\Temp\\cc3EGpy5.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_3cad9.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_3cad9.dir/objects.a --no-whole-archive --out-implib libcmTC_3cad9.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_10a7d.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_10a7d.']
+        link line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Eli\\AppData\\Local\\Temp\\ccX2lGnx.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_10a7d.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_10a7d.dir/objects.a --no-whole-archive --out-implib libcmTC_10a7d.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll] ==> ignore
           arg [-plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\Eli\\AppData\\Local\\Temp\\cc3EGpy5.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\Eli\\AppData\\Local\\Temp\\ccX2lGnx.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
@@ -2780,7 +3099,7 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_3cad9.exe] ==> ignore
+          arg [cmTC_10a7d.exe] ==> ignore
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o]
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o]
           arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0]
@@ -2791,10 +3110,10 @@ events:
           arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..]
           arg [-v] ==> ignore
           arg [--whole-archive] ==> ignore
-          arg [CMakeFiles\\cmTC_3cad9.dir/objects.a] ==> ignore
+          arg [CMakeFiles\\cmTC_10a7d.dir/objects.a] ==> ignore
           arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_3cad9.dll.a] ==> ignore
+          arg [libcmTC_10a7d.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -2819,7 +3138,7 @@ events:
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o]
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
         ignore line: [collect2 version 15.2.0]
-        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Eli\\AppData\\Local\\Temp\\cc3EGpy5.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_3cad9.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_3cad9.dir/objects.a --no-whole-archive --out-implib libcmTC_3cad9.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Eli\\AppData\\Local\\Temp\\ccX2lGnx.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_10a7d.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_10a7d.dir/objects.a --no-whole-archive --out-implib libcmTC_10a7d.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
         linker tool for 'C': C:/msys64/ucrt64/x86_64-w64-mingw32/bin/ld.exe
         remove lib [gcc_eh]
         remove lib [msvcrt]

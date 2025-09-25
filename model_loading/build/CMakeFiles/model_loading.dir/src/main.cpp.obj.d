@@ -1,5 +1,5 @@
 CMakeFiles/model_loading.dir/src/main.cpp.obj: \
- D:\Documents\Computer_Graphics\code\model_loading\src\main.cpp \
+ D:\Documents\Computer_Graphics\code\computer_graphics\model_loading\src\main.cpp \
  C:/msys64/ucrt64/include/c++/15.2.0/iostream \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/requires_hosted.h \
  C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -139,8 +139,16 @@ CMakeFiles/model_loading.dir/src/main.cpp.obj: \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.tcc \
  C:/msys64/ucrt64/include/c++/15.2.0/istream \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/istream.tcc \
- D:/Documents/Computer_Graphics/code/model_loading/include/glad/glad.h \
- D:/Documents/Computer_Graphics/code/model_loading/include/KHR/khrplatform.h \
+ D:/Documents/Computer_Graphics/code/computer_graphics/model_loading/include/glad/glad.h \
+ D:/Documents/Computer_Graphics/code/computer_graphics/model_loading/include/KHR/khrplatform.h \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \
  C:/msys64/ucrt64/include/stdint.h \
- D:/Documents/Computer_Graphics/code/model_loading/include/GLFW/glfw3.h
+ D:/Documents/Computer_Graphics/code/computer_graphics/model_loading/include/GLFW/glfw3.h \
+ D:/Documents/Computer_Graphics/code/computer_graphics/model_loading/include/shader.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/fstream \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/codecvt.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/basic_file.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++io.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/fstream.tcc \
+ C:/msys64/ucrt64/include/c++/15.2.0/sstream \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/sstream.tcc

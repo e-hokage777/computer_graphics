@@ -219,8 +219,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "D:/Documents/Computer_Graphics/code/model_loading/build",
-		"source" : "D:/Documents/Computer_Graphics/code/model_loading"
+		"build" : "D:/Documents/Computer_Graphics/code/computer_graphics/model_loading/build",
+		"source" : "D:/Documents/Computer_Graphics/code/computer_graphics/model_loading"
 	},
 	"version" : 
 	{

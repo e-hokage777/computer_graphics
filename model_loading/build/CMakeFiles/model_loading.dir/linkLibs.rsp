@@ -1,1 +1,1 @@
-  -LD:/Documents/Computer_Graphics/code/model_loading/libs  -lglfw3 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+  -LD:/Documents/Computer_Graphics/code/computer_graphics/model_loading/libs  -lglfw3 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

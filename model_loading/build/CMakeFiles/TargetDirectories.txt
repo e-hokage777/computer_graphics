@@ -1,3 +1,3 @@
-D:/Documents/Computer_Graphics/code/model_loading/build/CMakeFiles/model_loading.dir
-D:/Documents/Computer_Graphics/code/model_loading/build/CMakeFiles/edit_cache.dir
-D:/Documents/Computer_Graphics/code/model_loading/build/CMakeFiles/rebuild_cache.dir
+D:/Documents/Computer_Graphics/code/computer_graphics/model_loading/build/CMakeFiles/model_loading.dir
+D:/Documents/Computer_Graphics/code/computer_graphics/model_loading/build/CMakeFiles/edit_cache.dir
+D:/Documents/Computer_Graphics/code/computer_graphics/model_loading/build/CMakeFiles/rebuild_cache.dir

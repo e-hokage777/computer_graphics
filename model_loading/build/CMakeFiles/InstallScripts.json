@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"D:/Documents/Computer_Graphics/code/model_loading/build/cmake_install.cmake"
+		"D:/Documents/Computer_Graphics/code/computer_graphics/model_loading/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

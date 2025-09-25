@@ -66,7 +66,7 @@
 			[
 				{
 					"backtrace" : 4,
-					"path" : "D:/Documents/Computer_Graphics/code/model_loading/include"
+					"path" : "D:/Documents/Computer_Graphics/code/computer_graphics/model_loading/include"
 				}
 			],
 			"language" : "CXX",
@@ -86,7 +86,7 @@
 			[
 				{
 					"backtrace" : 4,
-					"path" : "D:/Documents/Computer_Graphics/code/model_loading/include"
+					"path" : "D:/Documents/Computer_Graphics/code/computer_graphics/model_loading/include"
 				}
 			],
 			"language" : "C",
@@ -107,7 +107,7 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "-LD:\\Documents\\Computer_Graphics\\code\\model_loading\\libs",
+				"fragment" : "-LD:\\Documents\\Computer_Graphics\\code\\computer_graphics\\model_loading\\libs",
 				"role" : "libraryPath"
 			},
 			{

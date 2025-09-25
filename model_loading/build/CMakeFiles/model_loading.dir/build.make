@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Documents\Computer_Graphics\code\model_loading
+CMAKE_SOURCE_DIR = D:\Documents\Computer_Graphics\code\computer_graphics\model_loading
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Documents\Computer_Graphics\code\model_loading\build
+CMAKE_BINARY_DIR = D:\Documents\Computer_Graphics\code\computer_graphics\model_loading\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/model_loading.dir/depend.make
@@ -73,33 +73,33 @@ CMakeFiles/model_loading.dir/codegen:
 
 CMakeFiles/model_loading.dir/src/main.cpp.obj: CMakeFiles/model_loading.dir/flags.make
 CMakeFiles/model_loading.dir/src/main.cpp.obj: CMakeFiles/model_loading.dir/includes_CXX.rsp
-CMakeFiles/model_loading.dir/src/main.cpp.obj: D:/Documents/Computer_Graphics/code/model_loading/src/main.cpp
+CMakeFiles/model_loading.dir/src/main.cpp.obj: D:/Documents/Computer_Graphics/code/computer_graphics/model_loading/src/main.cpp
 CMakeFiles/model_loading.dir/src/main.cpp.obj: CMakeFiles/model_loading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Documents\Computer_Graphics\code\model_loading\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/model_loading.dir/src/main.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/model_loading.dir/src/main.cpp.obj -MF CMakeFiles\model_loading.dir\src\main.cpp.obj.d -o CMakeFiles\model_loading.dir\src\main.cpp.obj -c D:\Documents\Computer_Graphics\code\model_loading\src\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Documents\Computer_Graphics\code\computer_graphics\model_loading\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/model_loading.dir/src/main.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/model_loading.dir/src/main.cpp.obj -MF CMakeFiles\model_loading.dir\src\main.cpp.obj.d -o CMakeFiles\model_loading.dir\src\main.cpp.obj -c D:\Documents\Computer_Graphics\code\computer_graphics\model_loading\src\main.cpp
 
 CMakeFiles/model_loading.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/model_loading.dir/src/main.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Documents\Computer_Graphics\code\model_loading\src\main.cpp > CMakeFiles\model_loading.dir\src\main.cpp.i
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Documents\Computer_Graphics\code\computer_graphics\model_loading\src\main.cpp > CMakeFiles\model_loading.dir\src\main.cpp.i
 
 CMakeFiles/model_loading.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/model_loading.dir/src/main.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Documents\Computer_Graphics\code\model_loading\src\main.cpp -o CMakeFiles\model_loading.dir\src\main.cpp.s
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Documents\Computer_Graphics\code\computer_graphics\model_loading\src\main.cpp -o CMakeFiles\model_loading.dir\src\main.cpp.s
 
 CMakeFiles/model_loading.dir/src/glad.c.obj: CMakeFiles/model_loading.dir/flags.make
 CMakeFiles/model_loading.dir/src/glad.c.obj: CMakeFiles/model_loading.dir/includes_C.rsp
-CMakeFiles/model_loading.dir/src/glad.c.obj: D:/Documents/Computer_Graphics/code/model_loading/src/glad.c
+CMakeFiles/model_loading.dir/src/glad.c.obj: D:/Documents/Computer_Graphics/code/computer_graphics/model_loading/src/glad.c
 CMakeFiles/model_loading.dir/src/glad.c.obj: CMakeFiles/model_loading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Documents\Computer_Graphics\code\model_loading\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/model_loading.dir/src/glad.c.obj"
-	C:\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/model_loading.dir/src/glad.c.obj -MF CMakeFiles\model_loading.dir\src\glad.c.obj.d -o CMakeFiles\model_loading.dir\src\glad.c.obj -c D:\Documents\Computer_Graphics\code\model_loading\src\glad.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Documents\Computer_Graphics\code\computer_graphics\model_loading\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/model_loading.dir/src/glad.c.obj"
+	C:\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/model_loading.dir/src/glad.c.obj -MF CMakeFiles\model_loading.dir\src\glad.c.obj.d -o CMakeFiles\model_loading.dir\src\glad.c.obj -c D:\Documents\Computer_Graphics\code\computer_graphics\model_loading\src\glad.c
 
 CMakeFiles/model_loading.dir/src/glad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/model_loading.dir/src/glad.c.i"
-	C:\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Documents\Computer_Graphics\code\model_loading\src\glad.c > CMakeFiles\model_loading.dir\src\glad.c.i
+	C:\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Documents\Computer_Graphics\code\computer_graphics\model_loading\src\glad.c > CMakeFiles\model_loading.dir\src\glad.c.i
 
 CMakeFiles/model_loading.dir/src/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/model_loading.dir/src/glad.c.s"
-	C:\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Documents\Computer_Graphics\code\model_loading\src\glad.c -o CMakeFiles\model_loading.dir\src\glad.c.s
+	C:\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Documents\Computer_Graphics\code\computer_graphics\model_loading\src\glad.c -o CMakeFiles\model_loading.dir\src\glad.c.s
 
 # Object files for target model_loading
 model_loading_OBJECTS = \
@@ -115,7 +115,7 @@ model_loading.exe: CMakeFiles/model_loading.dir/build.make
 model_loading.exe: CMakeFiles/model_loading.dir/linkLibs.rsp
 model_loading.exe: CMakeFiles/model_loading.dir/objects1.rsp
 model_loading.exe: CMakeFiles/model_loading.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\Documents\Computer_Graphics\code\model_loading\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable model_loading.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\Documents\Computer_Graphics\code\computer_graphics\model_loading\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable model_loading.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\model_loading.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -127,6 +127,6 @@ CMakeFiles/model_loading.dir/clean:
 .PHONY : CMakeFiles/model_loading.dir/clean
 
 CMakeFiles/model_loading.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Documents\Computer_Graphics\code\model_loading D:\Documents\Computer_Graphics\code\model_loading D:\Documents\Computer_Graphics\code\model_loading\build D:\Documents\Computer_Graphics\code\model_loading\build D:\Documents\Computer_Graphics\code\model_loading\build\CMakeFiles\model_loading.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Documents\Computer_Graphics\code\computer_graphics\model_loading D:\Documents\Computer_Graphics\code\computer_graphics\model_loading D:\Documents\Computer_Graphics\code\computer_graphics\model_loading\build D:\Documents\Computer_Graphics\code\computer_graphics\model_loading\build D:\Documents\Computer_Graphics\code\computer_graphics\model_loading\build\CMakeFiles\model_loading.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/model_loading.dir/depend
 
