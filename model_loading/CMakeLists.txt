@@ -1,8 +1,8 @@
 cmake_minimum_required(VERSION 3.10)
 
-project(model_loading VERSION 1.0.0  LANGUAGES CXX C)
+project(model_loading VERSION 1.0.0 LANGUAGES CXX C)
 
-add_executable(${PROJECT_NAME} ${PROJECT_SOURCE_DIR}/src/main.cpp ${PROJECT_SOURCE_DIR}/src/glad.c)
+add_executable(${PROJECT_NAME} ${PROJECT_SOURCE_DIR}/src/main.cpp ${PROJECT_SOURCE_DIR}/src/glad.c ${PROJECT_SOURCE_DIR}/src/stb_image.cpp)
 
 target_link_directories(${PROJECT_NAME} PUBLIC libs)
 

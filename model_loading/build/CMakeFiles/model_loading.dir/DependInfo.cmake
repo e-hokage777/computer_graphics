@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/Documents/Computer_Graphics/code/computer_graphics/model_loading/src/glad.c" "CMakeFiles/model_loading.dir/src/glad.c.obj" "gcc" "CMakeFiles/model_loading.dir/src/glad.c.obj.d"
   "D:/Documents/Computer_Graphics/code/computer_graphics/model_loading/src/main.cpp" "CMakeFiles/model_loading.dir/src/main.cpp.obj" "gcc" "CMakeFiles/model_loading.dir/src/main.cpp.obj.d"
+  "D:/Documents/Computer_Graphics/code/computer_graphics/model_loading/src/stb_image.cpp" "CMakeFiles/model_loading.dir/src/stb_image.cpp.obj" "gcc" "CMakeFiles/model_loading.dir/src/stb_image.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -1,3 +1,5 @@
+#pragma once
+
 #include <iostream>
 #include <glad/glad.h>
 #include <fstream>
@@ -15,6 +17,8 @@ public:
         std::ifstream fragmentFile;
         std::stringstream vertexStream;
         std::stringstream fragmentStream;
+        std::string vertexString;
+        std::string fragmentString;
         const char *vertexCode;
         const char *fragmentCode;
 
@@ -26,9 +30,6 @@ public:
         {
             vertexFile.open(vertexFilePath);
             fragmentFile.open(fragmentFilePath);
-
-            std::string vertexString;
-            std::string fragmentString;
 
             vertexStream << vertexFile.rdbuf();
             fragmentStream << fragmentFile.rdbuf();
@@ -68,6 +69,21 @@ public:
             glGetProgramInfoLog(this->ID, 512, NULL, infoLog);
             std::cout << "Failed to link shaders to program: " << infoLog << std::endl;
         }
+    }
+
+    void setMat4(const char *name, float *value)
+    {
+        glUniformMatrix4fv(glGetUniformLocation(this->ID, name), 1, GL_FALSE, value);
+    }
+
+    void setVec3(const char *name, float *value)
+    {
+        glUniform3fv(glGetUniformLocation(this->ID, name), 1, value);
+    }
+
+    void setFloat(const char *name, float value)
+    {
+        glUniform1f(glGetUniformLocation(this->ID, name), value);
     }
 
     void use()

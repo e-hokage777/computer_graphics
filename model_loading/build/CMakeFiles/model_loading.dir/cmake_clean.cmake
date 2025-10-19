@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/model_loading.dir/src/glad.c.obj.d"
   "CMakeFiles/model_loading.dir/src/main.cpp.obj"
   "CMakeFiles/model_loading.dir/src/main.cpp.obj.d"
+  "CMakeFiles/model_loading.dir/src/stb_image.cpp.obj"
+  "CMakeFiles/model_loading.dir/src/stb_image.cpp.obj.d"
   "libmodel_loading.dll.a"
   "model_loading.exe"
   "model_loading.exe.manifest"
