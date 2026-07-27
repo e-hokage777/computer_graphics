@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.10)
 project(model_loading VERSION 1.0.0 LANGUAGES C CXX)
 
 
-set(EXEC_SOURCES "src/main.cpp" "src/stb_image.cpp")
+set(EXEC_SOURCES "src/model_loading.cpp" "src/stb_image.cpp")
 set(DT_EXEC_SOURCES "src/depth-testing.cpp" "src/stb_image.cpp")
 set(ST_EXEC_SOURCES "src/stencil_testing.cpp" "src/stb_image.cpp")
 set(BT_EXEC_SOURCES "src/blending.cpp" "src/stb_image.cpp")
