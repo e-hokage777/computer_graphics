@@ -1,0 +1,6 @@
+{
+	"cmake.configureArgs": [
+		"-DPython_EXECUTABLE=C:/Users/Eli/.pyenv/pyenv-win/versions/3.13.5/python.exe"
+	],
+	"cmake.useCMakePresets": "always"
+}
