@@ -36,7 +36,7 @@ float computeSpecularStrength(vec3 lightDir, vec3 viewDir, vec3 normal) {
 
     float specularStrength = max(dot(-viewDir, reflectedLight), 0);
 
-    specularStrength = pow(specularStrength, 128);
+    specularStrength = pow(specularStrength, 64);
 
     return specularStrength;
 }
@@ -60,15 +60,15 @@ void main() {
     vec3 normal = normalize(frag_in.normal);
 
     // lights
+    float diffuseStrength;
+    float specularStrength;
     vec3 diffuse = vec3(0);
     vec3 specular = vec3(0);
 
     for(int i = 0; i < 3; ++i) {
         vec3 lightDir = normalize(frag_in.pos - lightPositions[i]);
-        float diffuseStrength = computeDiffuseStrength(lightDir, normal);
-        diffuse += diffuseStrength * diffuseTexture * lightColors[i];
-
-        float specularStrength;
+        diffuseStrength = computeDiffuseStrength(lightDir, normal);
+        diffuse += diffuseTexture * diffuseStrength * lightColors[i];
 
         if(blinn) {
             specularStrength = computeBlinnPhongSpecularStrength(lightDir, viewDir, normal);
@@ -85,7 +85,6 @@ void main() {
     float ambientStrength = 0.4;
     // diffuse
     // specular
-    float specularStrength;
 
     vec3 ambient = diffuseTexture * ambientStrength;
 

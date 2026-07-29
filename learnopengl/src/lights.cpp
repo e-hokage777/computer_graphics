@@ -122,10 +122,10 @@ int main()
 
     // cubes
     // Cube cube1 = Cube(glm::vec3(2.0f), glm::vec3(1.0f, 0.0f, 0.0f), glm::vec3(-0.2f, 0.0f, -10.0f), {"assets/brickwall.jpg"});
-    Plane floor = Plane(glm::vec3(50.0f), glm::vec3(0.0f, 1.0f, 0.0f), glm::vec3(0.0f, 0.0f, -10.0f), {"assets/wood.png"}, 90.0f, glm::vec3(1.0f, 0.0f, 0.0f));
+    Plane floor = Plane(glm::vec3(50.0f), glm::vec3(0.0f, 1.0f, 0.0f), glm::vec3(0.0f, 0.0f, -10.0f), {"assets/wood.png"}, -90.0f, glm::vec3(1.0f, 0.0f, 0.0f));
     Light light1 = Light(glm::vec3(4.0f, 2.0f, 0. - 14.0f), glm::vec3(1.0f, 1.0f, 1.0f), 1.0f, 0.0f, 0.0f);
-    Light light2 = Light(glm::vec3(2.0f, 2.0f, 0. - 14.0f), glm::vec3(1.0f, 1.0f, 1.0f), 1.0f, 0.0f, 0.0f);
-    Light light3 = Light(glm::vec3(-2.0f, 2.0f, 0. - 14.0f), glm::vec3(1.0f, 0.2f, 1.0f), 1.0f, 0.0f, 0.0f);
+    Light light2 = Light(glm::vec3(0.0f, 2.0f, 0. - 14.0f), glm::vec3(1.0f, 1.0f, 1.0f), 1.0f, 0.0f, 0.0f);
+    Light light3 = Light(glm::vec3(-4.0f, 2.0f, 0. - 14.0f), glm::vec3(1.0f, 0.9f, 1.0f), 1.0f, 0.0f, 0.0f);
 
     // defining matrices
     glm::mat4 modelMat = glm::mat4(1.0f);
