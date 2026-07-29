@@ -46,10 +46,10 @@ void processInput(GLFWwindow *window)
     {
         camera.move(CameraMovement::RIGHT);
     }
-    
 
     // changing lighthing
-    if(glfwGetKey(window, GLFW_KEY_B) == GLFW_PRESS){
+    if (glfwGetKey(window, GLFW_KEY_B) == GLFW_PRESS)
+    {
         blinn = !blinn;
     }
 }
@@ -123,9 +123,9 @@ int main()
     // cubes
     // Cube cube1 = Cube(glm::vec3(2.0f), glm::vec3(1.0f, 0.0f, 0.0f), glm::vec3(-0.2f, 0.0f, -10.0f), {"assets/brickwall.jpg"});
     Plane floor = Plane(glm::vec3(50.0f), glm::vec3(0.0f, 1.0f, 0.0f), glm::vec3(0.0f, 0.0f, -10.0f), {"assets/wood.png"}, 90.0f, glm::vec3(1.0f, 0.0f, 0.0f));
-    Light light = Light(glm::vec3(4.0f, 2.0f, 0. - 14.0f), glm::vec3(1.0f, 1.0f, 1.0f), 1.0f, 0.0f, 0.0f);
+    Light light1 = Light(glm::vec3(4.0f, 2.0f, 0. - 14.0f), glm::vec3(1.0f, 1.0f, 1.0f), 1.0f, 0.0f, 0.0f);
     Light light2 = Light(glm::vec3(2.0f, 2.0f, 0. - 14.0f), glm::vec3(1.0f, 1.0f, 1.0f), 1.0f, 0.0f, 0.0f);
-    Light light3 = Light(glm::vec3(-2.0f, 2.0f, 0. - 14.0f), glm::vec3(1.0f, 1.0f, 1.0f), 1.0f, 0.0f, 0.0f);
+    Light light3 = Light(glm::vec3(-2.0f, 2.0f, 0. - 14.0f), glm::vec3(1.0f, 0.2f, 1.0f), 1.0f, 0.0f, 0.0f);
 
     // defining matrices
     glm::mat4 modelMat = glm::mat4(1.0f);
@@ -150,18 +150,22 @@ int main()
         lightShader.use();
         lightShader.uniformMat4("projection", projectionMat);
         lightShader.uniformMat4("view", camera.getMatrix());
-        light.Draw(lightShader);
-        light2.Draw(lightShader); 
+        light1.Draw(lightShader);
+        light2.Draw(lightShader);
         light3.Draw(lightShader); // Drawing multiple lights but only one is passing info to obj shader
 
         shader.use();
         shader.uniformMat4("projection", projectionMat);
         shader.uniformMat4("view", camera.getMatrix());
         // shader.uniformMat4("model", modelMat);
-        shader.uniformVec3("lightPos", light.position);
-        shader.uniformVec3("lightColor", light.color);
         shader.uniformVec3("cameraPos", camera.position);
         shader.setBool("blinn", blinn);
+        shader.uniformVec3("lightPositions[0]", light1.position);
+        shader.uniformVec3("lightColors[0]", light1.color);
+        shader.uniformVec3("lightPositions[1]", light2.position);
+        shader.uniformVec3("lightColors[1]", light2.color);
+        shader.uniformVec3("lightPositions[2]", light3.position);
+        shader.uniformVec3("lightColors[2]", light3.color);
 
         // cube1.Draw(shader);
         floor.Draw(shader);

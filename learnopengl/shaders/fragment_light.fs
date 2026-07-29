@@ -1,10 +1,12 @@
 #version 330 core
 
 out vec4 FragColor;
-uniform vec3 lightColor;
-uniform vec3 lightPos;
+// uniform vec3 lightColor;
+// uniform vec3 lightPos;
 uniform vec3 cameraPos;
 uniform bool blinn;
+uniform vec3 lightPositions[3];
+uniform vec3 lightColors[3];
 
 in VS_OUT {
     vec2 texCoords;
@@ -54,29 +56,40 @@ void main() {
     vec3 specularTexture = vec3(texture2D(material.texture_specular1, frag_in.texCoords));
 
     // computing directions
-    vec3 lightDir = normalize(frag_in.pos - lightPos);
     vec3 viewDir = normalize(frag_in.pos - cameraPos);
     vec3 normal = normalize(frag_in.normal);
+
+    // lights
+    vec3 diffuse = vec3(0);
+    vec3 specular = vec3(0);
+
+    for(int i = 0; i < 3; ++i) {
+        vec3 lightDir = normalize(frag_in.pos - lightPositions[i]);
+        float diffuseStrength = computeDiffuseStrength(lightDir, normal);
+        diffuse += diffuseStrength * diffuseTexture * lightColors[i];
+
+        float specularStrength;
+
+        if(blinn) {
+            specularStrength = computeBlinnPhongSpecularStrength(lightDir, viewDir, normal);
+        } else {
+            specularStrength = computeSpecularStrength(lightDir, viewDir, normal);
+        }
+
+        specular += diffuseTexture * specularStrength * lightColors[i];
+
+    }
 
     //// computing lights
     // ambient
     float ambientStrength = 0.4;
     // diffuse
-    float diffuseStrength = computeDiffuseStrength(lightDir, normal);
     // specular
     float specularStrength;
 
-    if(blinn) {
-        specularStrength = computeBlinnPhongSpecularStrength(lightDir, viewDir, normal);
-    } else {
-        specularStrength = computeSpecularStrength(lightDir, viewDir, normal);
-    }
-
     vec3 ambient = diffuseTexture * ambientStrength;
-    vec3 diffuse = diffuseTexture * diffuseStrength;
-    vec3 specular = diffuseTexture * specularStrength;
 
     vec3 color = ambient + diffuse + specular;
-    color = color * lightColor;
+
     FragColor = vec4(color, 1.0);
 }
