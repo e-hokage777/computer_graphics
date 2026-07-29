@@ -5,6 +5,8 @@ uniform vec3 lightColor;
 uniform vec3 lightPos;
 uniform vec3 cameraPos;
 uniform bool blinn;
+uniform vec3 lightPositions[3];
+uniform vec3 lightColors[3];
 
 in VS_OUT {
     vec2 texCoords;
