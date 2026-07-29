@@ -14,7 +14,7 @@
 const int WIDTH = 800;
 const int HEIGHT = 600;
 float deltaTime = 0;
-Camera camera = Camera(glm::vec3(0.0f, 0.0f, 0.0f), glm::vec3(0.0f, 0.0f, -1.0f));
+Camera camera = Camera(glm::vec3(0.0f, 2.0f, 0.0f), glm::vec3(0.0f, 0.0f, -1.0f));
 bool blinn = false;
 
 void framebufferSizeCallback(GLFWwindow *window, int width, int height)
@@ -121,8 +121,11 @@ int main()
     Shader lightShader("shaders/vertex.vs", "shaders/light.fs");
 
     // cubes
-    Cube cube1 = Cube(glm::vec3(2.0f), glm::vec3(1.0f, 0.0f, 0.0f), glm::vec3(-0.2f, 0.0f, -10.0f), {"assets/brickwall.jpg"});
-    Light light = Light(glm::vec3(4.0f, 0.0f, 0. - 14.0f), glm::vec3(1.0f, 1.0f, 1.0f), 1.0f, 0.0f, 0.0f);
+    // Cube cube1 = Cube(glm::vec3(2.0f), glm::vec3(1.0f, 0.0f, 0.0f), glm::vec3(-0.2f, 0.0f, -10.0f), {"assets/brickwall.jpg"});
+    Plane floor = Plane(glm::vec3(50.0f), glm::vec3(0.0f, 1.0f, 0.0f), glm::vec3(0.0f, 0.0f, -10.0f), {"assets/wood.png"}, 90.0f, glm::vec3(1.0f, 0.0f, 0.0f));
+    Light light = Light(glm::vec3(4.0f, 2.0f, 0. - 14.0f), glm::vec3(1.0f, 1.0f, 1.0f), 1.0f, 0.0f, 0.0f);
+    Light light2 = Light(glm::vec3(2.0f, 2.0f, 0. - 14.0f), glm::vec3(1.0f, 1.0f, 1.0f), 1.0f, 0.0f, 0.0f);
+    Light light3 = Light(glm::vec3(-2.0f, 2.0f, 0. - 14.0f), glm::vec3(1.0f, 1.0f, 1.0f), 1.0f, 0.0f, 0.0f);
 
     // defining matrices
     glm::mat4 modelMat = glm::mat4(1.0f);
@@ -148,6 +151,8 @@ int main()
         lightShader.uniformMat4("projection", projectionMat);
         lightShader.uniformMat4("view", camera.getMatrix());
         light.Draw(lightShader);
+        light2.Draw(lightShader); 
+        light3.Draw(lightShader); // Drawing multiple lights but only one is passing info to obj shader
 
         shader.use();
         shader.uniformMat4("projection", projectionMat);
@@ -158,7 +163,8 @@ int main()
         shader.uniformVec3("cameraPos", camera.position);
         shader.setBool("blinn", blinn);
 
-        cube1.Draw(shader);
+        // cube1.Draw(shader);
+        floor.Draw(shader);
 
         screen.deactivate();
 

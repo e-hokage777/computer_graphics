@@ -13,16 +13,20 @@ class Primitive
 protected:
     glm::vec3 scale;
     glm::vec3 color;
+    glm::vec3 rotAxis;
+    float rotAngle;
     vector<string> texturePaths;
 
 public:
     glm::vec3 position;
-    Primitive(glm::vec3 scale, glm::vec3 color = glm::vec3(0.776f, 0.765f, 0.710f), glm::vec3 position = glm::vec3(0.0f, 0.0f, 0.0f), vector<string> texturePaths = vector<string>())
+    Primitive(glm::vec3 scale, glm::vec3 color = glm::vec3(0.776f, 0.765f, 0.710f), glm::vec3 position = glm::vec3(0.0f, 0.0f, 0.0f), vector<string> texturePaths = vector<string>(), float rotAngle = NULL, glm::vec3 rotAxis = glm::vec3(0.0f, 0.0f, 0.0f))
     {
         this->scale = scale;
         this->position = position;
         this->color = color;
         this->texturePaths = texturePaths;
+        this->rotAngle = rotAngle;
+        this->rotAxis = rotAxis;
         loadTextures();
     }
 
@@ -40,7 +44,12 @@ public:
         // transform = glm::rotate(transform, glm::radians(-60.0f), glm::vec3(1.0f, 0.0f, 0.0f));
 
         glm::mat4 model = glm::mat4(1.0f);
+
         model = glm::translate(model, position);
+        if (this->rotAngle)
+        {
+            model = glm::rotate(model, glm::radians(rotAngle), glm::radians(rotAxis));
+        }
         model = glm::scale(model, this->scale);
 
         shader.uniformMat4("model", model);
