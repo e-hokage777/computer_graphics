@@ -16,6 +16,7 @@ const int HEIGHT = 600;
 float deltaTime = 0;
 Camera camera = Camera(glm::vec3(0.0f, 2.0f, 0.0f), glm::vec3(0.0f, 0.0f, -1.0f));
 bool blinn = false;
+bool gammaCorrection = false;
 Screen screen;
 
 void framebufferSizeCallback(GLFWwindow *window, int width, int height)
@@ -53,6 +54,12 @@ void processInput(GLFWwindow *window)
     if (glfwGetKey(window, GLFW_KEY_B) == GLFW_PRESS)
     {
         blinn = !blinn;
+    }
+
+    // toggle gamma correction
+    if (glfwGetKey(window, GLFW_KEY_G) == GLFW_PRESS)
+    {
+        gammaCorrection = !gammaCorrection;
     }
 }
 
@@ -118,6 +125,7 @@ int main()
     // glFrontFace(GL_CW);
     // glDepthFunc(GL_ALWAYS);
     // glEnable(GL_MULTISAMPLE);
+    // glEnable(GL_FRAMEBUFFER_SRGB);
 
     Shader shader("shaders/vertex.vs", "shaders/fragment_light.fs");
     Shader lightShader("shaders/vertex.vs", "shaders/light.fs");
@@ -146,6 +154,11 @@ int main()
 
         // draw offscreen
         screen.activate();
+        if (gammaCorrection)
+        {
+            glEnable(GL_FRAMEBUFFER_SRGB);
+        }
+
         glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
@@ -171,6 +184,8 @@ int main()
 
         // cube1.Draw(shader);
         floor.Draw(shader);
+
+        glDisable(GL_FRAMEBUFFER_SRGB);
 
         screen.deactivate();
 

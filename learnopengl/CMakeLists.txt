@@ -21,6 +21,7 @@ set(ASTI_EXEC_SOURCES "src/asteriods_instancing.cpp" "src/stb_image.cpp")
 set(AA_EXEC_SOURCES "src/anti-aliasing.cpp" "src/stb_image.cpp")
 set(AAO_EXEC_SOURCES "src/anti-aliasing-offscreen.cpp" "src/stb_image.cpp")
 set(L_EXEC_SOURCES "src/lights.cpp" "src/stb_image.cpp")
+set(LG_EXEC_SOURCES "src/lights-gamma-correction.cpp" "src/stb_image.cpp")
 
 
 # ---------------------------------------------------------
@@ -166,6 +167,10 @@ target_include_directories(anti-aliasing-offscreen PRIVATE ${PROJECT_SOURCE_DIR}
 add_executable(lights ${L_EXEC_SOURCES})
 target_link_libraries(lights PRIVATE glfw glad glm::glm OpenGL::GL assimp)
 target_include_directories(lights PRIVATE ${PROJECT_SOURCE_DIR}/include ${STB_INCLUDE_DIR})
+
+add_executable(lights-gamma-correction ${LG_EXEC_SOURCES})
+target_link_libraries(lights-gamma-correction PRIVATE glfw glad glm::glm OpenGL::GL assimp)
+target_include_directories(lights-gamma-correction PRIVATE ${PROJECT_SOURCE_DIR}/include ${STB_INCLUDE_DIR})
 
 
 

@@ -13,6 +13,10 @@ public:
 
     Screen(unsigned int width = 800, unsigned int height = 600, unsigned int samples = 1) : width(width), height(height), samples(samples)
     {
+        // this->setup();
+    }
+
+    void init(){
         this->setup();
     }
 
@@ -23,6 +27,12 @@ public:
         glBindVertexArray(this->vao);
         glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
         glBindVertexArray(0);
+    }
+
+    void resize(unsigned int width, unsigned int height){
+        this->width = width;
+        this->height = height;
+        this->configureFBO();
     }
 
     void activate()
