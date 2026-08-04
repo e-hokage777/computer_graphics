@@ -36,7 +36,7 @@ float computeSpecularStrength(vec3 lightDir, vec3 viewDir, vec3 normal) {
 
     float specularStrength = max(dot(-viewDir, reflectedLight), 0);
 
-    specularStrength = pow(specularStrength, 8);
+    specularStrength = pow(specularStrength, 128);
 
     return specularStrength;
 }
@@ -46,9 +46,16 @@ float computeBlinnPhongSpecularStrength(vec3 lightDir, vec3 viewDir, vec3 normal
 
     float specularStrength = max(dot(normal, midVector), 0);
 
-    specularStrength = pow(specularStrength, 32);
+    specularStrength = pow(specularStrength, 128);
 
     return specularStrength;
+}
+
+float computeAttenuation(vec3 lightPos){
+    float dist = distance(frag_in.pos, lightPos);
+    float attenuation = 1/(dist);
+
+    return attenuation;
 }
 
 void main() {
@@ -65,10 +72,11 @@ void main() {
     vec3 diffuse = vec3(0);
     vec3 specular = vec3(0);
 
-    for(int i = 0; i < 1; ++i) {
+    for(int i = 0; i < 3; ++i) {
         vec3 lightDir = normalize(frag_in.pos - lightPositions[i]);
+        float attenuation = computeAttenuation(lightPositions[i]);
         diffuseStrength = computeDiffuseStrength(lightDir, normal);
-        diffuse += diffuseTexture * diffuseStrength * lightColors[i];
+        diffuse += diffuseTexture * diffuseStrength * attenuation *  lightColors[i];
 
         if(blinn) {
             specularStrength = computeBlinnPhongSpecularStrength(lightDir, viewDir, normal);
@@ -76,19 +84,19 @@ void main() {
             specularStrength = computeSpecularStrength(lightDir, viewDir, normal);
         }
 
-        specular += diffuseTexture * specularStrength * lightColors[i];
+        specular += diffuseTexture * specularStrength * attenuation *  lightColors[i];
 
     }
 
     //// computing lights
     // ambient
-    float ambientStrength = 0.4;
+    float ambientStrength = 0.0;
     // diffuse
     // specular
 
     vec3 ambient = diffuseTexture * ambientStrength;
 
     vec3 color = ambient + diffuse + specular;
-
-    FragColor = vec4(color, 1.0);
+    float gamma = 2.2;
+    FragColor = vec4(pow(color, vec3(1/gamma)), 1.0);
 }

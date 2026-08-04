@@ -25,6 +25,19 @@ void framebufferSizeCallback(GLFWwindow *window, int width, int height)
     screen.resize(width, height);
 }
 
+void keyCallback(GLFWwindow *window, int key, int scancode, int action, int mods) {
+    // toggle blinn phong
+    if(key == GLFW_KEY_B && action == GLFW_PRESS) {
+        blinn = !blinn;
+    }
+    // toggle gamma correction
+    if (key == GLFW_KEY_G && action == GLFW_PRESS)
+    {
+        // This fires exactly ONCE per physical physical click
+        gammaCorrection = !gammaCorrection; 
+    }
+}
+
 void processInput(GLFWwindow *window)
 {
     if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS)
@@ -51,16 +64,16 @@ void processInput(GLFWwindow *window)
     }
 
     // changing lighthing
-    if (glfwGetKey(window, GLFW_KEY_B) == GLFW_PRESS)
-    {
-        blinn = !blinn;
-    }
+    // if (glfwGetKey(window, GLFW_KEY_B) == GLFW_PRESS)
+    // {
+    //     blinn = !blinn;
+    // }
 
-    // toggle gamma correction
-    if (glfwGetKey(window, GLFW_KEY_G) == GLFW_PRESS)
-    {
-        gammaCorrection = !gammaCorrection;
-    }
+    // // toggle gamma correction
+    // if (glfwGetKey(window, GLFW_KEY_G) == GLFW_PRESS)
+    // {
+    //     gammaCorrection = !gammaCorrection;
+    // }
 }
 
 double lastX = WIDTH / 2.0;
@@ -107,6 +120,7 @@ int main()
     glfwMakeContextCurrent(window);
     glfwSetFramebufferSizeCallback(window, framebufferSizeCallback);
     glfwSetCursorPosCallback(window, cursorPositionCallback);
+    glfwSetKeyCallback(window, keyCallback);
     glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
     glfwSwapInterval(1);
 
@@ -158,6 +172,9 @@ int main()
         {
             glEnable(GL_FRAMEBUFFER_SRGB);
         }
+        else{
+            glDisable(GL_FRAMEBUFFER_SRGB);
+        }
 
         glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
@@ -184,8 +201,6 @@ int main()
 
         // cube1.Draw(shader);
         floor.Draw(shader);
-
-        glDisable(GL_FRAMEBUFFER_SRGB);
 
         screen.deactivate();
 
