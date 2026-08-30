@@ -22,6 +22,8 @@ set(AA_EXEC_SOURCES "src/anti-aliasing.cpp" "src/stb_image.cpp")
 set(AAO_EXEC_SOURCES "src/anti-aliasing-offscreen.cpp" "src/stb_image.cpp")
 set(L_EXEC_SOURCES "src/lights.cpp" "src/stb_image.cpp")
 set(LG_EXEC_SOURCES "src/lights-gamma-correction.cpp" "src/stb_image.cpp")
+set(SHADOWS_EXEC_SOURCES "src/shadows.cpp" "src/stb_image.cpp")
+set(TO_EXEC_SOURCES "src/test-orthographic.cpp" "src/stb_image.cpp")
 
 
 # ---------------------------------------------------------
@@ -172,7 +174,13 @@ add_executable(lights-gamma-correction ${LG_EXEC_SOURCES})
 target_link_libraries(lights-gamma-correction PRIVATE glfw glad glm::glm OpenGL::GL assimp)
 target_include_directories(lights-gamma-correction PRIVATE ${PROJECT_SOURCE_DIR}/include ${STB_INCLUDE_DIR})
 
+add_executable(shadows ${SHADOWS_EXEC_SOURCES})
+target_link_libraries(shadows PRIVATE glfw glad glm::glm OpenGL::GL assimp)
+target_include_directories(shadows PRIVATE ${PROJECT_SOURCE_DIR}/include ${STB_INCLUDE_DIR})
 
+add_executable(test-orthographic ${TO_EXEC_SOURCES})
+target_link_libraries(test-orthographic PRIVATE glfw glad glm::glm OpenGL::GL assimp)
+target_include_directories(test-orthographic PRIVATE ${PROJECT_SOURCE_DIR}/include ${STB_INCLUDE_DIR})
 
 
 add_custom_command(TARGET ${PROJECT_NAME} POST_BUILD

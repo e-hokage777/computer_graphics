@@ -4,6 +4,7 @@
 #include "glm/gtc/matrix_transform.hpp"
 #include "cube.h"
 #include "shader.h"
+#include "drawable.h"
 
 // constants
 const glm::vec3 LIGHT_POSITION = glm::vec3(0.0f, 0.0f, 0.0f);
@@ -12,7 +13,7 @@ const float LIGHT_INTENSITY = 1.0f;
 const float LIGHT_ANGLE = 0.0f;
 const float LIGHT_FALLOFF = 0.0f;
 
-class Light
+class Light : public Drawable
 {
 public:
     glm::vec3 position;

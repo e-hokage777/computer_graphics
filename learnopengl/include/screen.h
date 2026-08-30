@@ -16,7 +16,8 @@ public:
         // this->setup();
     }
 
-    void init(){
+    void init()
+    {
         this->setup();
     }
 
@@ -29,7 +30,8 @@ public:
         glBindVertexArray(0);
     }
 
-    void resize(unsigned int width, unsigned int height){
+    void resize(unsigned int width, unsigned int height)
+    {
         this->width = width;
         this->height = height;
         this->configureFBO();
@@ -80,8 +82,8 @@ private:
 
         // defining indices
         std::vector<unsigned int> indices = {
-            0, 1, 2,
-            2, 3, 0};
+            2, 1, 0,
+            2, 0, 3};
 
         // creating buffer
         glGenBuffers(1, &this->vbo);

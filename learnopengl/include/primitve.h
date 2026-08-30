@@ -5,10 +5,11 @@
 #include <vector>
 #include "mesh.h"
 #include "utils.h"
+#include "drawable.h"
 
 using namespace std;
 
-class Primitive
+class Primitive : public Drawable
 {
 protected:
     glm::vec3 scale;
