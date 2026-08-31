@@ -103,14 +103,26 @@ float computeShadow(vec3 lightDir) {
 
 }
 
-float pcfShadow() {
+float pcfShadow(vec3 lightDir) {
     vec4 fragPosLightSpace = lightSpaceMatrix * vec4(frag_in.pos, 1.0);
     vec3 projCoords = fragPosLightSpace.xyz / fragPosLightSpace.w;
     projCoords = projCoords * 0.5 + 0.5;
 
-    for(int i = -1; i <= 1; ++i){
-        
+    vec2 texelSize = 1.0 / textureSize(shadowMap, 0);
+
+    float shadow = 0;
+
+    for(int x = -1; x <= 1; ++x) {
+        for(int y = -1; y <= 1; ++y) {
+            vec2 coord = projCoords.xy + vec2(x, y) * texelSize;
+            float shadowDepth = texture2D(shadowMap, coord).r;
+
+            float bias = max(0.05 * (1 - dot(lightDir, frag_in.normal)), 0.005) * 0;
+            shadow += shadowDepth < projCoords.z - bias ? 1.0 : 0.0;
+        }
     }
+
+    return shadow / 9.0;
 }
 
 void main() {
@@ -146,7 +158,8 @@ void main() {
     // float attenuation = computeAttenuation(lightPositions[i]);
 
     //// computing shadow
-    float shadow = computeShadow(dirLight.position - frag_in.pos);
+    // float shadow = computeShadow(dirLight.position - frag_in.pos);
+    float shadow = pcfShadow(dirLight.position - frag_in.pos);
 
     //// computing lights
     // ambient

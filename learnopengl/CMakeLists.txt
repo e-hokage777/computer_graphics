@@ -24,6 +24,7 @@ set(L_EXEC_SOURCES "src/lights.cpp" "src/stb_image.cpp")
 set(LG_EXEC_SOURCES "src/lights-gamma-correction.cpp" "src/stb_image.cpp")
 set(SHADOWS_EXEC_SOURCES "src/shadows.cpp" "src/stb_image.cpp")
 set(TO_EXEC_SOURCES "src/test-orthographic.cpp" "src/stb_image.cpp")
+set(POINT_SHADOWS_EXEC_SOURCES "src/point-shadows.cpp" "src/stb_image.cpp")
 
 
 # ---------------------------------------------------------
@@ -181,6 +182,10 @@ target_include_directories(shadows PRIVATE ${PROJECT_SOURCE_DIR}/include ${STB_I
 add_executable(test-orthographic ${TO_EXEC_SOURCES})
 target_link_libraries(test-orthographic PRIVATE glfw glad glm::glm OpenGL::GL assimp)
 target_include_directories(test-orthographic PRIVATE ${PROJECT_SOURCE_DIR}/include ${STB_INCLUDE_DIR})
+
+add_executable(point-shadows ${POINT_SHADOWS_EXEC_SOURCES})
+target_link_libraries(point-shadows PRIVATE glfw glad glm::glm OpenGL::GL assimp)
+target_include_directories(point-shadows PRIVATE ${PROJECT_SOURCE_DIR}/include ${STB_INCLUDE_DIR})
 
 
 add_custom_command(TARGET ${PROJECT_NAME} POST_BUILD
