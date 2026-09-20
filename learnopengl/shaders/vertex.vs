@@ -10,6 +10,8 @@ out VS_OUT {
     vec3 pos;
 } vs_out;
 
+out vec4 vertexPos;
+
 
 
 uniform mat4 model = mat4(1.0);
@@ -20,8 +22,8 @@ uniform mat4 transform = mat4(1.0);
 void main() {
     vec4 worldPos = model * vec4(pos, 1.0);
     vs_out.pos = worldPos.xyz;
-    vec4 vertexPos = projection * view * worldPos;
-    gl_Position = vertexPos;
+    vertexPos =  worldPos;
+    gl_Position = projection * view * worldPos;
     vs_out.texCoords = texCoordsVec;
     vs_out.normal = normalize(mat3(transpose(inverse(model))) * normal);
 

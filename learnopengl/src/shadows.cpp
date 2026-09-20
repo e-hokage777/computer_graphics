@@ -149,7 +149,7 @@ int main()
     // glEnable(GL_FRAMEBUFFER_SRGB);
 
     Shader shader("shaders/vertex.vs", "shaders/shadows.fs");
-    Shader shadowRenderShader("shaders/vertex.vs", "shaders/shadow_render.fs");
+    Shader shadowRenderShader("shaders/vertex.vs", "shaders/point-shadow-render.fs");
     Shader lightShader("shaders/vertex.vs", "shaders/light.fs");
     Shader singleTexShader("shaders/single_tex_shader.vs", "shaders/single_tex_shader.fs");
 

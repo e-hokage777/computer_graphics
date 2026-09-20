@@ -1,16 +1,20 @@
 #include <iostream>
 #include "glad/gl.h"
 #include "GLFW/glfw3.h"
+#include <map>
+#include <cstdlib>
+
+// my includes
+#include "globals.h"
 #include "shader.h"
 #include "plane.h"
 #include "cube.h"
 #include "camera.h"
-#include <map>
-#include <cstdlib>
 #include "screen.h"
 #include "light.h"
 #include "directional_light.h"
 #include "scene.h"
+#include "point_light.h"
 
 // globals
 int WIDTH = 800;
@@ -148,15 +152,16 @@ int main()
     // glEnable(GL_MULTISAMPLE);
     // glEnable(GL_FRAMEBUFFER_SRGB);
 
-    Shader shader("shaders/vertex.vs", "shaders/shadows.fs");
-    Shader shadowRenderShader("shaders/vertex.vs", "shaders/shadow_render.fs");
+    Shader shader("shaders/vertex.vs", "shaders/point-shadows.fs");
+    // Shader shadowRenderShader("shaders/vertex.vs", "shaders/shadow_render.fs");
     Shader lightShader("shaders/vertex.vs", "shaders/light.fs");
     Shader singleTexShader("shaders/single_tex_shader.vs", "shaders/single_tex_shader.fs");
+    Shader pointShadowShader = Shader("shaders/point-shadows.vs", "shaders/point-shadow-render.fs", "shaders/point-shadows.gs");
 
     // cubes
     // Cube cube1 = Cube(glm::vec3(2.0f), glm::vec3(1.0f, 0.0f, 0.0f), glm::vec3(-0.2f, 0.0f, -10.0f), {"assets/brickwall.jpg"});
     Plane floor = Plane(glm::vec3(50.0f), glm::vec3(0.0f, 1.0f, 0.0f), glm::vec3(-15.0f, 0.0f, 0.0f), {"assets/wood.png"}, -90.0f, glm::vec3(1.0f, 0.0f, 0.0f));
-    Cube cube1 = Cube(glm::vec3(1.0f), glm::vec3(1.0f, 0.0f, 0.0f), glm::vec3(0.0f, 2.0f, 0.0f), {"assets/brickwall.jpg"});
+    Cube cube1 = Cube(glm::vec3(1.0f), glm::vec3(1.0f, 0.0f, 0.0f), glm::vec3(2.0f, 2.0f, 0.0f), {"assets/brickwall.jpg"});
     Light light1 = Light(glm::vec3(4.0f, 2.0f, -10.0f), glm::vec3(1.0f, 1.0f, 1.0f), 1.0f, 0.0f, 0.0f);
     Light light2 = Light(glm::vec3(0.0f, 0.7f, -2.5f), glm::vec3(1.0f, 1.0f, 1.0f), 1.0f, 0.0f, 0.0f);
     Light light3 = Light(glm::vec3(-4.0f, 0.3f, -8.0f), glm::vec3(1.0f, 0.9f, 1.0f), 1.0f, 0.0f, 0.0f);
@@ -175,6 +180,7 @@ int main()
     DirectionalLight directionalLight = DirectionalLight(glm::vec3(4.0f, -1.0f, 0.0f), glm::vec3(1.0f, 1.0f, 1.0f), glm::vec3(-1.0f, 7.0f, 5.0f));
     // Light dlight = Light(directionalLight.falsePosition, glm::vec3(1.0f, 0.9f, 1.0f), 1.0f, 0.0f, 0.0f);
     Cube dlight = Cube(glm::vec3(1.0f), glm::vec3(1.0f, 0.0f, 0.0f), directionalLight.falsePosition, {"assets/skybox/front.jpg"});
+    PointLight pointLight = PointLight(glm::vec3(0.0f, 4.0f, 0.0f), 0.1f, 25.0f);
 
     // creating scene
     Scene scene = Scene();
@@ -200,7 +206,10 @@ int main()
         // drawing light
 
         // rendering shadow map
-        directionalLight.renderShadowMap(shadowRenderShader, scene);
+        // directionalLight.renderShadowMap(shadowRenderShader, scene);
+        pointShadowShader.use();
+        pointShadowShader.uniformVec3("lightPos", pointLight.position);
+        pointLight.renderShadow(pointShadowShader, scene);
 
         // resetting viewport
         glViewport(0, 0, WIDTH, HEIGHT);
@@ -219,12 +228,6 @@ int main()
         glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
-        // lightShader.use();
-        // lightShader.uniformMat4("projection", projectionMat);
-        // lightShader.uniformMat4("view", camera.getMatrix());
-        // light1.Draw(lightShader);
-        // light2.Draw(lightShader);
-        // light3.Draw(lightShader); // Drawing multiple lights but only one is passing info to obj shader
 
         shader.use();
         shader.uniformMat4("projection", projectionMat);
@@ -232,21 +235,14 @@ int main()
         // shader.uniformMat4("model", modelMat);
         shader.uniformVec3("cameraPos", camera.position);
         shader.setBool("blinn", blinn);
-        shader.uniformVec3("dirLight.direction", directionalLight.direction);
-        shader.uniformVec3("dirLight.color", directionalLight.color);
-        shader.uniformVec3("dirLight.position", directionalLight.falsePosition);
 
         // setting shadow map and light matrix
-        shader.setTexUnit(8, directionalLight.shadowMap, "shadowMap", GL_TEXTURE_2D);
-        shader.uniformMat4("lightSpaceMatrix", directionalLight.lightMatrix);
+        shader.setTexUnit(8, directionalLight.shadowMap, "shadowMap", GL_TEXTURE_CUBE_MAP);
+        shader.setTexUnit(9, pointLight.depthCubeMap, "depthCubeMap", GL_TEXTURE_CUBE_MAP);
 
-        // shader.uniformVec3("lightPositions[0]", light1.position);
-        // shader.uniformVec3("lightColors[0]", light1.color);
-        shader.uniformVec3("lightPositions[0]", light2.position + glm::vec3(-4.0f, 4.0f, 2.0f));
-        shader.uniformVec3("lightColors[0]", light2.color);
-        // shader.uniformVec3("lightPositions[2]", light3.position);
-        // shader.uniformVec3("lightColors[2]", light3.color);
-
+        shader.uniformVec3("lightPositions[0]", pointLight.position);
+        shader.uniformVec3("lightColors[0]", pointLight.color);
+        shader.setFloat("farPlane", pointLight.far);
         // cube1.Draw(shader);
         // floor.Draw(shader);
 

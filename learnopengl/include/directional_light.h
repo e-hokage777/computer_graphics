@@ -1,12 +1,11 @@
+#pragma once
+
 #include <iostream>
 #include "glm/gtc/matrix_transform.hpp"
 #include "glad/gl.h"
 #include "shader.h"
 #include "scene.h"
 #include <vector>
-
-const int SHADOW_WIDTH = 1024;
-const int SHADOW_HEIGHT = 1024;
 
 struct ShadowMapVertex
 {
@@ -97,6 +96,7 @@ private:
         glFramebufferTexture2D(GL_FRAMEBUFFER, GL_DEPTH_ATTACHMENT, GL_TEXTURE_2D, this->shadowMap, 0);
         glBindFramebuffer(GL_FRAMEBUFFER, 0);
 
+        // TODO: this should probably come before I unbind the framebuffer
         if (glCheckFramebufferStatus(GL_FRAMEBUFFER) != GL_FRAMEBUFFER_COMPLETE)
             std::cout << "ERROR::FRAMEBUFFER:: Framebuffer is not complete!" << std::endl;
 
