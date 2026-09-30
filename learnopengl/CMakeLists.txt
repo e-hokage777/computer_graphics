@@ -25,6 +25,7 @@ set(LG_EXEC_SOURCES "src/lights-gamma-correction.cpp" "src/stb_image.cpp")
 set(SHADOWS_EXEC_SOURCES "src/shadows.cpp" "src/stb_image.cpp")
 set(TO_EXEC_SOURCES "src/test-orthographic.cpp" "src/stb_image.cpp")
 set(POINT_SHADOWS_EXEC_SOURCES "src/point-shadows.cpp" "src/stb_image.cpp")
+set(TEXT_RENDERING_EXEC_SOURCES "src/text-rendering.cpp" "src/stb_image.cpp")
 
 
 # ---------------------------------------------------------
@@ -67,6 +68,15 @@ fetchcontent_declare(
 )
 
 # ---------------------------------------------------------
+# 3. Fetch FreeType (truetype text rendering)
+# ---------------------------------------------------------
+FetchContent_Declare(
+    freetype
+    GIT_REPOSITORY https://github.com/freetype/freetype.git
+    GIT_TAG VER-2-14-3
+)
+
+# ---------------------------------------------------------
 # 3. Fetch stbi_image
 # ---------------------------------------------------------
 set(STB_INCLUDE_DIR ${CMAKE_BINARY_DIR}/_deps/stb)
@@ -79,7 +89,7 @@ file(DOWNLOAD
 )
 
 
-FetchContent_MakeAvailable(glfw glm glad assimp)
+FetchContent_MakeAvailable(glfw glm glad assimp freetype)
 
 # ---------------------------------------------------------
 # 5. Configure GLAD v2 Target Loader
@@ -186,6 +196,10 @@ target_include_directories(test-orthographic PRIVATE ${PROJECT_SOURCE_DIR}/inclu
 add_executable(point-shadows ${POINT_SHADOWS_EXEC_SOURCES})
 target_link_libraries(point-shadows PRIVATE glfw glad glm::glm OpenGL::GL assimp)
 target_include_directories(point-shadows PRIVATE ${PROJECT_SOURCE_DIR}/include ${STB_INCLUDE_DIR})
+
+add_executable(text-rendering ${TEXT_RENDERING_EXEC_SOURCES})
+target_link_libraries(text-rendering PRIVATE glfw glad glm::glm OpenGL::GL assimp freetype)
+target_include_directories(text-rendering PRIVATE ${PROJECT_SOURCE_DIR}/include ${STB_INCLUDE_DIR})
 
 
 add_custom_command(TARGET ${PROJECT_NAME} POST_BUILD
